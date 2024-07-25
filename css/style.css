@@ -160,7 +160,6 @@ article {
     background-size: cover;
     background-position: center;
     filter: blur(0.25rem);
-    
 }
 .p-img-container {
     display: flex;
@@ -169,12 +168,11 @@ article {
         flex: 0 0 60%;
     }
     .col-2 {
-        flex: 0 0 30%;
+        flex: 0 0 40%;
     }
 }
 .image-container {
     position: relative;
-    flex: 0 0 30%;
     display: flex;
     justify-content: center;
     align-items: center;
