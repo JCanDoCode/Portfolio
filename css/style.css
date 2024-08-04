@@ -1,17 +1,20 @@
 /* ____________________ Root  ____________________ */
 :root {
-    --margins: 0 21rem 0 21rem;
+    --margins: 0 21rem;
     @media (max-width: 1371px) {
-        --margins: 0 19rem 0 19rem;
+        --margins: 0 19rem;
     }
     @media (max-width: 1223px) {
-        --margins: 0 17rem 0 17rem;
+        --margins: 0 17rem;
     }
     @media (max-width: 1099px) {
-        --margins: 0 10rem 0 10rem;
+        --margins: 0 10rem;
     }
-    @media (max-width: 1099px) {
-        --margins: 0 10rem 0 10rem;
+    @media (max-width: 767px) {
+        --margins: 0 4rem;
+    }
+    @media (max-width: 645px) {
+        --margins: 0 2rem;
     }
     
 }
@@ -61,6 +64,10 @@ nav {
                 }
             }
         }
+    }
+
+    @media (max-width: 480px) {
+        height: 17rem;
     }
 }
 
@@ -129,8 +136,8 @@ article {
 }
 .hero-banner {
     position: relative;
-    margin-top: 4rem;
     height: 20rem;
+    margin-top: 4rem;
     margin-bottom: 15rem;
 
     h1 {
@@ -143,14 +150,24 @@ article {
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 4rem;
-        display: flex;
+        display: inline-flex;
+        flex-wrap: wrap;
         align-items: center;
         opacity: 0;
         animation: fadeIn 0.5s 1.5s ease forwards;
+
+        @media (max-width: 909px) {
+            display: block;
+            align-items: unset;
+        }
+        @media (max-width: 645px) {
+            text-align: center;
+        }
     }
     .btn {
         font-size: 1.8rem;
         text-decoration: none;
+        text-align: center;
         display: block;
         width: 10%;
         height: 25%;
@@ -173,7 +190,17 @@ article {
             width: 20%;
             height: 25%;
         }
-        
+        @media (max-width: 645px) {
+            margin-top: 1.5rem;
+            width: 20%;
+            height: 95%;
+        }
+    }
+
+    @media (max-width: 645px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 .hero-banner-img {
@@ -249,13 +276,10 @@ article {
                     display: flex;
                     justify-content: space-between;
 
-                    @media (max-width: 1167px) {
-                        height: 25%;
-                    }
-
                     .btn {
                         font-size: 1.8rem;
                         text-decoration: none;
+                        text-align: center;
                         display: block;
                         height: 100%;
                         display: flex;
@@ -270,6 +294,10 @@ article {
                             background-color: #332220;
                             color: white;
                         }
+                    }
+
+                    @media (max-width: 1167px) {
+                        height: 25%;
                     }
                 }
             }
@@ -288,7 +316,7 @@ article {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    
+
     &::after {
         content: "";
         position: absolute;
@@ -302,6 +330,28 @@ article {
     }
     &:hover::after {
         transform: translateX(0%);
+    }
+
+    @media (max-width: 909px) {
+        overflow: unset;
+        margin-left: unset;
+        padding: unset;
+        display: unset;
+        position: unset;
+        text-decoration: underline;
+
+        &::after {
+            display: none;
+            content: unset;
+            position: unset;
+            width: unset;
+            height: unset;
+            bottom: unset;
+            left: unset;
+            background-color: rgba(243, 113, 92, 0);
+            transform: unset;
+            transition: unset;
+        } 
     }
 }
 .p-img-container {
@@ -410,6 +460,10 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 8rem;
+
+    @media (max-width: 645px) {
+        text-align: center;
+    }
 }
 h2 {
     font-family: "Bebas Neue", sans-serif;
