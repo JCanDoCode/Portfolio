@@ -1,6 +1,3 @@
-const vw = window.innerWidth;
-const heroBanner = document.querySelector("#heroBanner");
-
 const dynamicHeroBanner = () => {
     if (vw <= 909) {
         heroBanner.innerHTML = `<h1>Where Ideas Happen</h1>
@@ -13,5 +10,5 @@ const dynamicHeroBanner = () => {
     }
 }
 
-addEventListener("load", dynamicHeroBanner)
-addEventListener("resize", () => {location.reload(); dynamicHeroBanner})
+addEventListener("DOMContentLoaded", dynamicHeroBanner);
+addEventListener("resize", dynamicHeroBanner);

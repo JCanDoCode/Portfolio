@@ -26,6 +26,10 @@ html {
     font-size: 62.5%;
     color: #332220;
 }
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
 /* ____________________ Nav ____________________ */
 nav {
@@ -33,18 +37,50 @@ nav {
     padding: var(--margins);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    z-index: 2;
     
     a {
+        height: 100%;
+        z-index: 2;
         img {
             width: 100%;
             height: 100%;
             object-fit: contain;
         }
     }
-    
+    .ham-icon {
+        flex: 0 0 10%;
+        height: 25%;
+        display: none;
+        z-index: 2;
+        cursor: pointer;
+
+        .line {
+            width: 100%;
+            height: 0.5rem;
+            background-color: #332220;
+
+            &:nth-of-type(2) {
+                width: 0%;
+                height: 0.3rem;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+
+        @media (max-width: 480px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
     .ham-menu {
         display: flex;
         align-items: center;
+        transform: translateX(0);
+        transition: all 0.5s ease-in-out;
+        z-index: 1;
 
         ul {
             display: flex;
@@ -59,15 +95,50 @@ nav {
                     text-decoration: none;
                     color: #332220;
                 }
-                &:nth-of-type(4) {
+                &:nth-of-type(3) {
                     margin-right: unset;
                 }
             }
         }
+        
+        @media (max-width: 480px) {
+            position: absolute;
+            width: 50vw;
+            height: 100vh;
+            padding-top: 13rem;
+            top: 0;
+            left: 100vw;
+            display: flex;
+            justify-content: end;
+            align-items: unset;
+            background-color: white;
+
+            ul {
+                margin-right: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: unset;
+                align-items: end;
+        
+                li {
+                    margin-right: unset;
+                    margin-bottom: 2rem;
+        
+                    a {
+                        font-size: 2.4rem;
+                        text-decoration: none;
+                        color: #332220;
+                    }
+                    &:nth-of-type(3) {
+                        margin-bottom: unset;
+                    }
+                }
+            } 
+        }
     }
 
     @media (max-width: 480px) {
-        height: 17rem;
+        height: 10rem;
     }
 }
 
@@ -96,7 +167,7 @@ footer {
         }
     }
     .footer-text {
-        flex: 0 0 20%;
+        width: 20%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -123,6 +194,13 @@ footer {
                 object-fit: contain;
             }
         } 
+    }
+
+    @media (max-width: 1024px) {
+        height: 25rem;
+    }
+    @media (max-width: 480px) {
+        height: 20rem;
     }
 }
 
@@ -160,8 +238,9 @@ article {
             display: block;
             align-items: unset;
         }
-        @media (max-width: 645px) {
-            text-align: center;
+        @media (max-width: 563px) {
+            font-size: 2.8rem;
+            line-height: 3rem;
         }
     }
     .btn {
@@ -195,9 +274,23 @@ article {
             width: 20%;
             height: 95%;
         }
+        @media (max-width: 480px) {
+            font-size: 1.6rem;
+            margin-top: 1.5rem;
+            width: 30%;
+            height: 20%;
+        }
     }
 
     @media (max-width: 645px) {
+        height: 24rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media (max-width: 480px) {
+        height: 20rem;
+        margin-bottom: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -211,13 +304,16 @@ article {
     background-size: cover;
     background-position: center;
     filter: blur(0.25rem);
+
+    @media (max-width: 480px) {
+        height: 30rem;
+    }
 }
 .card-container {
     width: 100%;
-    height: 100rem;
 
     .card {
-        height: 25%;
+        height: 25rem;
         padding: 2.2rem;
         border-top: 0.75rem #332220 solid;
         border-bottom: 0.75rem #332220 solid;
@@ -294,6 +390,10 @@ article {
                             background-color: #332220;
                             color: white;
                         }
+
+                        @media (max-width: 480px) {
+                            font-size: 1.6rem;
+                        }
                     }
 
                     @media (max-width: 1167px) {
@@ -308,6 +408,31 @@ article {
 /* ____________________ Utilities ____________________ */
 .no-margin-top {
     margin-top: unset;
+}
+.btn {
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 20%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border: 0.5rem #332220 solid;
+    color: #332220;
+    transition: all 0.15s ease;
+
+    &:hover {
+        background-color: #332220;
+        color: white;
+    }
+
+    @media (max-width: 480px) {
+        width: 40%;
+        font-size: 1.6rem;
+    }
 }
 .underline {
     overflow: hidden;
@@ -356,7 +481,6 @@ article {
 }
 .p-img-container {
     display: flex;
-    justify-content: space-between;
     .col-1 {
         flex: 0 0 60%;
     }
@@ -367,8 +491,31 @@ article {
             flex: 0 0 35%;
         }
     }
+
+    @media (max-width: 950px) {
+        flex-direction: column;
+
+        .col-1 {
+            flex: unset;
+            width: 100%;
+        }
+        .col-2 {
+            height: 20rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            flex: unset;
+            width: 100%;
+
+            @media (max-width: 480px) {
+                height: 15rem;
+            }
+        }
+    }
 }
 .image-container {
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -397,8 +544,19 @@ article {
     }
     img {
         width: 90%;
+        height: 100%;
         border-radius: 1.5rem;
-        object-fit: contain;
+        object-fit: cover;
+    }
+
+    @media (max-width: 950px) {
+        flex: 0 0 40%;
+        justify-content: end;
+        align-items: center;
+    }
+
+    @media (max-width: 600px) {
+        flex: 0 0 50%;
     }
 }
 .contact-article {
@@ -425,7 +583,7 @@ article {
     }
 }
 .footer-stroke {
-    margin-top: 24rem;
+    margin-top: 5rem;
 
     .thick {
         width: 100%;
@@ -439,20 +597,6 @@ article {
         background-color: #332220;
     }
 }
-.card-stroke {
-    
-
-    .thick {
-        width: 1rem;
-        height: 100%;
-        background-color: #332220;
-    }
-    .thin {
-        width: 1rem;
-        height: 100%;
-        background-color: #332220;
-    }
-}
 
 /* ____________________ Fonts ____________________ */
 h1 {
@@ -461,7 +605,16 @@ h1 {
     font-style: normal;
     font-size: 8rem;
 
-    @media (max-width: 645px) {
+    @media (max-width: 563px) {
+        font-size: 6rem;
+        text-align: center;
+    }
+    @media (max-width: 480px) {
+        font-size: 5.4rem;
+        text-align: center;
+    }
+    @media (max-width: 394px) {
+        font-size: 4.8rem;
         text-align: center;
     }
 }
@@ -470,23 +623,49 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 6.4rem;
+
+    @media (max-width: 563px) {
+        font-size: 4.6rem;
+    }
+    @media (max-width: 480px) {
+        font-size: 4rem;
+    }
+    @media (max-width: 394px) {
+        font-size: 3.6rem;
+    }
 }
 h3 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
+
+    @media (max-width: 563px) {
+        font-size: 3.5rem;
+    }
+    @media (max-width: 480px) {
+        font-size: 3.2rem;
+    }
 }
 h4 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2.6rem;
+
+    @media (max-width: 563px) {
+        font-size: 2.4rem;
+    }
 }
 p {
     font-size: 1.8rem;
     line-height: 2.75rem;
     margin-bottom: 1rem;
+
+    @media (max-width: 480px) {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
 }
 article li {
     list-style-type: circle;
