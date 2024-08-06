@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 </head>
 <body>
     <header>
@@ -38,63 +40,58 @@
     <main>
         <article>
             <h2>Pieces</h2>
-            <div class="p-img-container">
-                <div class="col-1">
-                    <h3>Goal</h3>
-                    <p>Create a responsive website that sells chess boards and provides helpful resources on chess. Users can shop premium boards, complete daily puzzles, and search through openings.</p>
-                    <h3>Narrative</h3>
-                    <p>In this project, I created my first responsive website that included, responsive elements, font sizes, and media queries. I chose the topic of a fictional company that sells chess boards.</p>
-                    <h3>Wireframe</h3>
-                    <p>First, I created the layout for mobile, tablet, and desktop in Figma. Along with these, I created the logo, wordmark, and gathered images from unsplash to use on the home page.</p>
-                    <h3>Draft Website</h3>
-                    <p>Now it was time to code the layouts made in Figma. I designed with the mobile first idea. This draft website was made responsive with media queries for mobile, tablet, and desktop. This draft website had placeholder frames for where images would go in the final implementation. Another important thing on this website was the hamburger menu which I coded in JavaScript. After this stage, the real website would be filled with all the images and plugins needed.</p>
-                    <h3>Final Website</h3>
-                    <p>To finish up the website, I added the images, a slider plugin, and removed css no longer used (due to the plugin’s css). I noticed that the hamburger menu was sliding in too far when viewport width was below 300px. After altering the JavaScript transform value from px to vw, I could translate the hamburger menu according to its vw. This fixed my problem I was having.</p>
-                </div>
-                <div class="col-2 artifact-col">
-                    <div class="image-container pieces-artifact">
-                        <div class="img-stroke">
-                            <div class="top-left-stroke">
-                                <div class="thick"></div>
-                                <div class="thin"></div>
-                            </div>
-                            <div class="bottom-right-stroke">
-                                <div class="thin"></div>
-                                <div class="thick"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="image-container pieces-artifact">
-                        <div class="img-stroke">
-                            <div class="top-left-stroke">
-                                <div class="thick"></div>
-                                <div class="thin"></div>
-                            </div>
-                            <div class="bottom-right-stroke">
-                                <div class="thin"></div>
-                                <div class="thick"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="image-container pieces-artifact">
-                        <div class="img-stroke">
-                            <div class="top-left-stroke">
-                                <div class="thick"></div>
-                                <div class="thin"></div>
-                            </div>
-                            <div class="bottom-right-stroke">
-                                <div class="thin"></div>
-                                <div class="thick"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p>Pieces is an ecommerce website selling premium, high quality chess boards. It also has many features to help users improve their chess skills and theory, like daily puzzles and an openings explorer.</p>
         </article>
         <article>
             <h3>Contributors</h3>
             <p>Josel Canlas - Web Developer</p>
         </article>
+        <article>
+            <h3>Goal</h3>
+            <p>Create a responsive website that sells chess boards and provides helpful resources on chess. Users can shop premium boards, complete daily puzzles, and search through openings.</p>
+        </article>
+        <article>
+            <h3>Narrative</h3>
+            <p>In this project, I created my first responsive website that included, responsive elements, font sizes, and media queries. I chose the topic of a fictional company that sells chess boards.</p>
+        </article>
+        <article>
+            <h3>Wireframe</h3>
+            <p>First, I created the layout for mobile, tablet, and desktop in Figma. Along with these, I created the logo, wordmark, and gathered images from unsplash to use on the home page.</p>
+        </article>
+        <div class="pieces-artifact"></div>
+        <article>
+            <h3>Draft Website</h3>
+            <p>Now it was time to code the layouts made in Figma. I designed with the mobile first idea. This draft website was made responsive with media queries for mobile, tablet, and desktop. This draft website had placeholder frames for where images would go in the final implementation. Another important thing on this website was the hamburger menu which I coded in JavaScript. After this stage, the real website would be filled with all the images and plugins needed.</p>
+        </article>
+        <div>
+            <pre><code class="language-css">
+            .home-flex {
+                width: 90%;
+                height: 1300px;
+                margin: 0 5% 0 5%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .wordmark {
+                width: 100%;
+                height: 15%;
+                margin-bottom: 15px;
+                background: url("../images/pieces_wordmark.png");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .paragraph-image {
+                margin-bottom: 5px;
+            }
+            </code></pre>
+        </div>
+        <article>
+            <h3>Final Website</h3>
+            <p>To finish up the website, I added the images, a slider plugin, and removed css no longer used (due to the plugin’s css). I noticed that the hamburger menu was sliding in too far when viewport width was below 300px. After altering the JavaScript transform value from px to vw, I could translate the hamburger menu according to its vw. This fixed my problem I was having.</p>
+        </article>
+        <div class="pieces-artifact"></div>
     </main>
     <div class="footer-stroke">
         <div class="thick"></div>
@@ -112,5 +109,6 @@
         </div>
     </footer>
     <script defer src="./js/main.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
