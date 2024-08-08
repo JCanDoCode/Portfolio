@@ -10,5 +10,4 @@ const dynamicHeroBanner = () => {
     }
 }
 
-addEventListener("DOMContentLoaded", dynamicHeroBanner);
-addEventListener("resize", dynamicHeroBanner);
+window.addEventListener("DOMContentLoaded", dynamicHeroBanner);

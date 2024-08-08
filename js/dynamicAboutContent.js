@@ -48,5 +48,4 @@ const dynamicAboutContent = () => {
     }
 }
 
-addEventListener("DOMContentLoaded", dynamicAboutContent);
-addEventListener("resize", dynamicAboutContent);
+window.addEventListener("DOMContentLoaded", dynamicAboutContent);

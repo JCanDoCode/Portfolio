@@ -28,5 +28,4 @@ const hamMenu = () => {
 }
 
 hamIcon.addEventListener("click", hamMenu);
-addEventListener("DOMContentLoaded", dynamicLogo);
-addEventListener("resize", () => {location.reload(); dynamicLogo});
+window.addEventListener("DOMContentLoaded", dynamicLogo);
