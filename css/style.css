@@ -1,5 +1,14 @@
 /* ____________________ Root  ____________________ */
 :root {
+    @media (min-width: 2560px) {
+        --margins: 0 70rem;
+    }
+    @media (max-width: 1900px) {
+        --margins: 0 35rem;
+    }
+    @media (max-width: 1773px) {
+        --margins: 0 21rem;
+    }
     --margins: 0 21rem;
     @media (max-width: 1371px) {
         --margins: 0 19rem;
