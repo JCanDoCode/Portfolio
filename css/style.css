@@ -417,6 +417,23 @@ article {
         }
     }
 }
+.skills {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 1.5rem;
+    }
+
+    @media (max-width: 950px) {
+        flex-wrap: wrap;
+    }
+}
 
 /* ____________________ Utilities ____________________ */
 .no-margin-top {
