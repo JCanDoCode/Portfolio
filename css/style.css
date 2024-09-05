@@ -237,16 +237,10 @@ article {
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 4rem;
-        display: inline-flex;
-        flex-wrap: wrap;
-        align-items: center;
+        display: block;
         opacity: 0;
         animation: fadeIn 0.5s 1.5s ease forwards;
 
-        @media (max-width: 909px) {
-            display: block;
-            align-items: unset;
-        }
         @media (max-width: 563px) {
             font-size: 2.8rem;
             line-height: 3rem;
@@ -457,8 +451,6 @@ article {
     }
 }
 .underline {
-    overflow: hidden;
-    margin-left: 1rem;
     padding: 0.4rem 0;
     display: inline-block;
     position: relative;
@@ -467,16 +459,71 @@ article {
     &::after {
         content: "";
         position: absolute;
-        width: 100%;
+        width: 0%;
         height: 0.5rem;
         bottom: 0;
         left: 0;
         background-color: #F3715C;
-        transform: translateX(-100%);
         transition: all 0.25s ease;
     }
     &:hover::after {
-        transform: translateX(0%);
+        width: 100%;
+    }
+
+    @media (max-width: 909px) {
+        overflow: unset;
+        margin-left: unset;
+        padding: unset;
+        display: unset;
+        position: unset;
+        text-decoration: underline;
+
+        &::after {
+            display: none;
+            content: unset;
+            position: unset;
+            width: unset;
+            height: unset;
+            bottom: unset;
+            left: unset;
+            background-color: rgba(243, 113, 92, 0);
+            transform: unset;
+            transition: unset;
+        } 
+    }
+}
+li a {
+    padding: 0.4rem 0;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 0.15rem;
+        margin-bottom: 0.5rem;
+        bottom: 0;
+        left: 0;
+        background-color: #332220;
+        transition: all 0.25s ease;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 0.25rem;
+        bottom: 0;
+        left: 0;
+        background-color: #332220;
+        transition: all 0.25s ease;
+    }
+    &:hover::before {
+        width: 100%;
     }
 
     @media (max-width: 909px) {

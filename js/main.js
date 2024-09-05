@@ -9,9 +9,9 @@ let hamActive = false;
 
 const dynamicLogo = () => {
     if (vw <= 480) {
-        logo.innerHTML = `<img src="./media/img/JCanArt_logo_web.png" alt="JCanArt logo">`;
+        logo.setAttribute("src", "./media/img/JCanArt_logo_web.png");
     } else {
-        logo.innerHTML = `<img src="./media/img/jcanart_wordmark_web_noslogan.png" alt="JCanArt Wordmark">`;
+        logo.setAttribute("src", "./media/img/jcanart_wordmark_web_noslogan.png");
     }
 }
 const hamMenu = () => {
