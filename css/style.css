@@ -237,7 +237,6 @@ article {
         font-optical-sizing: auto;
         font-weight: 400;
         font-size: 4rem;
-        display: block;
         opacity: 0;
         animation: fadeIn 0.5s 1.5s ease forwards;
 
