@@ -1,15 +1,19 @@
 /* ____________________ Root  ____________________ */
 :root {
-    @media (min-width: 2560px) {
-        --margins: 0 70rem;
+    --margins: 0 70rem;
+
+    @media (max-width: 2559px) {
+        --margins: 0 60rem;
     }
-    @media (max-width: 1900px) {
+    @media (max-width: 2185px) {
+        --margins: 0 45rem;
+    }
+    @media (max-width: 2000px) {
         --margins: 0 35rem;
     }
     @media (max-width: 1773px) {
         --margins: 0 21rem;
     }
-    --margins: 0 21rem;
     @media (max-width: 1371px) {
         --margins: 0 19rem;
     }
@@ -19,7 +23,7 @@
     @media (max-width: 1099px) {
         --margins: 0 10rem;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 783px) {
         --margins: 0 4rem;
     }
     @media (max-width: 645px) {
@@ -215,17 +219,16 @@ footer {
 
 /* ____________________ Body ____________________ */
 main {
-    padding-top: 3.5rem;
+    padding-top: 1.5rem;
     margin: var(--margins);
 }
-article {
-    margin-top: 2rem;
+article, section {
+    margin-top: 4rem;
 }
 .hero-banner {
     position: relative;
     height: 20rem;
-    margin-top: 4rem;
-    margin-bottom: 15rem;
+    margin-bottom: 17rem;
 
     h1 {
         transform: translateY(0);
@@ -240,9 +243,11 @@ article {
         opacity: 0;
         animation: fadeIn 0.5s 1.5s ease forwards;
 
+        @media (max-width: 669px) {
+            font-size: 3.6rem;
+        }
         @media (max-width: 563px) {
             font-size: 2.8rem;
-            line-height: 3rem;
         }
     }
     .btn {
@@ -274,9 +279,9 @@ article {
         @media (max-width: 645px) {
             margin-top: 1.5rem;
             width: 20%;
-            height: 95%;
+            height: 30%;
         }
-        @media (max-width: 480px) {
+        @media (max-width: 563px) {
             font-size: 1.6rem;
             margin-top: 1.5rem;
             width: 30%;
@@ -285,7 +290,7 @@ article {
     }
 
     @media (max-width: 645px) {
-        height: 24rem;
+        height: 20rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -403,20 +408,18 @@ article {
     }
 }
 .skills {
-    margin-top: 2rem;
+    margin: 2rem 0 3rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5%;
+    flex-wrap: wrap;
 
     img {
         width: 10rem;
         height: 10rem;
+        margin-bottom: 1rem;
         border-radius: 1.5rem;
-    }
-
-    @media (max-width: 950px) {
-        flex-wrap: wrap;
     }
 }
 
@@ -463,32 +466,10 @@ article {
         bottom: 0;
         left: 0;
         background-color: #F3715C;
-        transition: all 0.25s ease;
+        transition: all 0.5s ease-in-out;
     }
     &:hover::after {
         width: 100%;
-    }
-
-    @media (max-width: 909px) {
-        overflow: unset;
-        margin-left: unset;
-        padding: unset;
-        display: unset;
-        position: unset;
-        text-decoration: underline;
-
-        &::after {
-            display: none;
-            content: unset;
-            position: unset;
-            width: unset;
-            height: unset;
-            bottom: unset;
-            left: unset;
-            background-color: rgba(243, 113, 92, 0);
-            transform: unset;
-            transition: unset;
-        } 
     }
 }
 li a {
