@@ -7,13 +7,6 @@ const heroBanner = document.querySelector("#heroBanner");
 const about = document.querySelector(".p-img-container");
 let hamActive = false;
 
-const dynamicLogo = () => {
-    if (vw <= 480) {
-        logo.setAttribute("src", "./media/img/JCanArt_logo_web.png");
-    } else {
-        logo.setAttribute("src", "./media/img/jcanart_wordmark_web_noslogan.png");
-    }
-}
 const hamMenu = () => {
     if (hamActive == false) {
         navMenu.style.transform = "translateX(-49.9vw)";
@@ -28,4 +21,3 @@ const hamMenu = () => {
 }
 
 hamIcon.addEventListener("click", hamMenu);
-window.addEventListener("DOMContentLoaded", dynamicLogo);
