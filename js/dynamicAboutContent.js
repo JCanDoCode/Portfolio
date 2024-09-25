@@ -2,7 +2,7 @@ const dynamicAboutContent = () => {
     if (vw <= 950) {
         about.innerHTML = `
                 <div class="col-1">
-                    <p>Hi, I’m Josel, a <span class="bold">Web Designer & Developer</span> in Vancouver, BC, Canada! <br><br>“Web Design” may have a definition to you already, but to me, web design is anything that is a design on the web. I love the work and thought process that goes into making our favorite websites! Even the browser you are using to view this now, so much time and effort went into making it the best it can be for the end user. Which I believe is <span class="bold"><i>why</i></span> I design for the web.</p>
+                    <p>Hi, I’m Josel, a <strong>Web Designer & Developer</strong> in Vancouver, BC, Canada! <br><br>“Web Design” may have a definition to you already, but to me, web design is anything that is a design on the web. I love the work and thought process that goes into making our favorite websites! Even the browser you are using to view this now, so much time and effort went into making it the best it can be for the end user. Which I believe is <strong><i>why</i></strong> I design for the web.</p>
                     <a href="#contact" class="btn">Contact</a>
                 </div>
                 <div class="col-2">
@@ -25,7 +25,7 @@ const dynamicAboutContent = () => {
     } else {
         about.innerHTML = `
                 <div class="col-1">
-                    <p>Hi, I’m Josel, a <span class="bold">Web Designer & Developer</span> in Vancouver, BC, Canada! <br><br>“Web Design” may have a definition to you already, but to me, web design is anything that is a design on the web. I love the work and thought process that goes into making our favorite websites! Even the browser you are using to view this now, so much time and effort went into making it the best it can be for the end user. Which I believe is <span class="bold"><i>why</i></span> I design for the web.</p>
+                    <p>Hi, I’m Josel, a <strong>Web Designer & Developer</strong> in Vancouver, BC, Canada! <br><br>“Web Design” may have a definition to you already, but to me, web design is anything that is a design on the web. I love the work and thought process that goes into making our favorite websites! Even the browser you are using to view this now, so much time and effort went into making it the best it can be for the end user. Which I believe is <strong><i>why</i></strong> I design for the web.</p>
                     <h3>The Why!</h3>
                     <p>I’ve always been taught to put my mind in the reader’s perspective. At BCIT, we code or design for the end user in mind when building a project. The user is always “why” I create anything. The “why” is something that has stuck with me since the start of my career. I always question, “why-” is something like that, or “why-” does a design look like this. Questions really drive <i>why</i> I do something, because without the why, then why are you doing what you do!</p>
                     <a href="#contact" class="btn">Contact</a>
