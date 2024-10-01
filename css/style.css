@@ -363,6 +363,10 @@ article, section {
 }
 .card-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .card {
         padding: 1rem;
@@ -391,7 +395,6 @@ article, section {
                 flex: 0 0 40%;
                 height: 25rem;
                 display: block;
-                transition: all 0.5s ease;
     
                 img {
                     width: 100%;
@@ -399,6 +402,11 @@ article, section {
                     border-radius: 1.5rem;
                     object-fit: cover;
                     object-position: center;
+                    transition: all 0.5s ease;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
 
                     &.position-top {
                         object-position: top;
@@ -408,9 +416,6 @@ article, section {
                         border-bottom-left-radius: 0;
                         border-bottom-right-radius: 0;
                     }
-                }
-                &:hover {
-                    transform: scale(1.1);
                 }
 
                 @media (max-width: 768px) {
@@ -441,6 +446,7 @@ article, section {
                         display: block;
                         flex: 0 0 40%;
                         height: 5rem;
+                        padding: 0;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -486,6 +492,26 @@ article, section {
         @media (max-width: 768px) {
             height: unset;
             border: unset;
+        }
+    }
+    .btn {
+        font-size: 1.8rem;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        width: fit-content;
+        padding: 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        border: 0.5rem #332220 solid;
+        color: #332220;
+        transition: all 0.15s ease;
+    
+        &:hover {
+            background-color: #332220;
+            color: white;
         }
     }
 }
@@ -786,7 +812,7 @@ pre {
     }
 }
 .footer-stroke {
-    margin-top: 5rem;
+    margin-top: 10rem;
 
     .thick {
         width: 100%;
