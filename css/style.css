@@ -197,12 +197,14 @@ nav {
 
 /* ____________________ Footer ____________________ */
 footer {
-    height: 40rem;
-    padding: var(--margins);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+
+    .footer-container {
+        height: 40rem;
+        padding: var(--margins);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .linkedin-icon {
         flex: 0 0 20%;
         height: 20%;
@@ -257,6 +259,10 @@ footer {
                 stroke-width: 15.07px;
             }
         }
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
     }
 
     @media (max-width: 1024px) {
@@ -347,13 +353,15 @@ article, section {
         
         @media (max-width: 563px) {
             font-size: 1.6rem;
-            margin-top: 1.5rem;
-            
         }
     }
     .bxl-linkedin-square {
         font-size: 4rem;
         color: var(--primary-color);
+
+        @media (max-width: 480px) {
+            font-size: 3.5rem;
+        }
     }
 
     @media (max-width: 645px) {
