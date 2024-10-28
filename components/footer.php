@@ -12,5 +12,5 @@
             <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank"><img src="./media/img/linkedin-icon.png" alt="LinkedIn"></a>
         </div>
     </div>
-    <p class="copyright">&copy; 2024 JCanArt(Josel Canlas)</p>
+    <p class="copyright">&copy; <?php echo date("Y"); ?> JCanArt(Josel Canlas)</p>
 </footer>

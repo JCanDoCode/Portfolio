@@ -50,7 +50,7 @@
         <article class="contact-article" id="contact" itemscope itemtype="https://schema.org/ContactPoint">
             <h3 itemprop="name">Contact</h3>
             <p itemprop="description">Feel free to contact me with any questions or any other wonderful work! ;)</p>
-            <p>Email: <a href="mailto:josel.can22@gmail.com" target="_blank" itemprop="email">josel.can22@gmail.com</a></p>
+            <p>Email: <a href="mailto:contact@joselcanlas.com" target="_blank" itemprop="email">contact@joselcanlas.com</a></p>
         </article>
     </main>
     <div class="footer-stroke">
