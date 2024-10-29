@@ -41,7 +41,7 @@
                         <article class="no-margin-top">
                             <h3 itemprop="name">JEEN</h3>
                             <span class="project-category">Web Development</span>
-                            <p itemprop="description">This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunsol, Emma, and Neal.</p>
+                            <p itemprop="description">This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunseol, Emma, and Neal.</p>
                             <div class="btn-flex">
                                 <a href="https://jeen.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
                                 <a href="./jeen.php" class="btn" itemprop="url">Learn More</a>
