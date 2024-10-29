@@ -53,15 +53,16 @@
                         </article>
                     </div>
                 </div>
+                <hr>
                 <div class="card">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
-                        <a href="https://groove.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/groove_img3.png" alt="Groove home page" class="position-top" itemprop="image"></a>
+                        <a href="https://groove.joselcanlas.com/" target="_blank" class="img-link unavailable" itemprop="url"><img src="./media/img/groove_img3.png" alt="Groove home page" class="position-top" itemprop="image"></a>
                         <article class="no-margin-top">
                             <h3 itemprop="name">Groove</h3>
                             <span class="project-category">Web Development</span>
                             <p itemprop="description">Groove is a music sharing social media platform. Unlike most music streaming applications, Groove is specially designed to suit short form posts. It's like Spotify and Instagram had a baby!</p>
                             <div class="btn-flex">
-                                <a href="https://groove.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
+                                <a href="https://groove.joselcanlas.com/" target="_blank" class="btn unavailable" itemprop="url">Unavailable</a>
                                 <a href="./groove.php" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
