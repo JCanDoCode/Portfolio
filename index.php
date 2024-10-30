@@ -35,7 +35,7 @@
         </div>
         <img src="./media/img/aboutpage.png" alt="Josel" itemprop="image">
     </section>
-    <main>
+    <main class="no-header-margin">
         <section>
             <h2 class="project-h2">Featured Work</h2>
             <div class="card-container">
