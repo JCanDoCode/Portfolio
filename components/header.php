@@ -17,7 +17,15 @@
         <div class="ham-menu">
             <ul>
                 <li><a href="./index.php">Home</a></li>
-                <li><a href="./work.php">Work</a></li>
+                <li class="dropdown">
+                    <a href="./work.php">Work</a>
+                    <div class="dropdown-menu">
+                        <a href="./jeen.php">JEEN</a>
+                        <a href="./pieces.php">Pieces</a>
+                        <a href="./groove.php">Groove</a>
+                        <a href="./trackrun.php">Track Run</a>
+                    </div>
+                </li>
                 <li><a href="./about.php">About</a></li>
             </ul>
         </div>
