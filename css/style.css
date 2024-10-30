@@ -389,15 +389,17 @@ article, section {
 }
 .hero-banner {
     position: relative;
-    height: 400px;
+    min-height: 400px;
     margin: 0;
     padding: var(--margins);
+    display: flex;
+    justify-content: space-between;
     background-image: url("../media/img/hero_banner.png");
     background-size: cover;
     background-position: center;
 
     h1 {
-        padding-top: 40px;
+        margin-top: 40px;
         transform: translateY(0);
         opacity: 0;
         animation: fadeInJump 0.5s 0.25s ease-in forwards;
@@ -431,6 +433,11 @@ article, section {
         gap: 10px;
         animation: fadeIn 0.5s 2s ease forwards;
         opacity: 0;
+
+        @media (max-width: 645px) {
+            width: 100%;
+            justify-content: center;
+        }
     }
     .btn {
         font-size: 1.8rem;
@@ -457,39 +464,66 @@ article, section {
             font-size: 1.6rem;
         }
     }
-    .bxl-linkedin-square {
+    i {
         font-size: 4rem;
         color: var(--primary-color);
+        transition: all 0.25s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
 
         @media (max-width: 481px) {
             font-size: 3.5rem;
         }
     }
+    img {
+        width: 350px;
+        height: 350px;
+        margin: 40px 20px;
+        border-radius: 100px;
+        opacity: 0;
+        animation: fadeIn 1s 2.5s ease forwards;
 
+        @media (max-width: 1450px) {
+            width: 250px;
+            height: 250px;
+            border-radius: 90px;
+        }
+        @media (max-width: 1300px) {
+            width: 220px;
+            height: 220px;
+            border-radius: 80px;
+        }
+        @media (max-width: 1200px) {
+            margin: 20px 20px 40px;
+            border-radius: 75px;
+        }
+        @media (max-width: 481px) {
+            width: 200px;
+            height: 200px;
+            border-radius: 75px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+    }
     @media (max-width: 645px) {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    @media (max-width: 563px) {
-        height: 300px;
-    }
-    @media (max-width: 481px) {
-        height: 250px;
-        display: flex;  
         flex-direction: column;
         align-items: center;
     }
 }
 .card-container {
     width: 100%;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     .card {
-        padding: 10px;
         margin-bottom: 50px;
         display: flex;
         justify-content: center;
@@ -497,6 +531,10 @@ article, section {
 
         &:nth-of-type(1) {
             margin-top: 50px;
+
+            @media (max-width: 563px) {
+                margin-top: unset;
+            }
         }
 
         .card-content {
@@ -616,6 +654,7 @@ article, section {
             }
 
             @media (max-width: 768px) {
+                padding: unset;
                 border: unset;
                 flex-direction: column;
                 background-color: unset;
@@ -961,6 +1000,11 @@ h2 {
     }
     @media (max-width: 394px) {
         font-size: 3.6rem;
+    }
+}
+.project-h2 {
+    @media (max-width: 645px) {
+        text-align: center;
     }
 }
 h3 {

@@ -24,16 +24,20 @@
 <body>
     <?php include "./components/header.php"; ?>
     <section class="hero-banner" id="heroBanner" itemscope itemtype="https://schema.org/Person">
-        <h1 itemprop="name">Where Ideas Happen</h1>
-        <h2 itemprop="description">I'm a <a href="./about.php" class="underline" itemprop="jobTitle">Web Designer & Developer</a></h2>
-        <div class="btn-container">
-            <a href="./about.php" class="btn" itemprop="url">Learn More</a>
-            <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        <div>
+            <h1 itemprop="name">Where Ideas Happen</h1>
+            <h2 itemprop="description">I'm a <a href="./about.php" class="underline" itemprop="jobTitle">Web Designer & Developer</a></h2>
+            <div class="btn-container">
+                <a href="./about.php" class="btn" itemprop="url">Learn More</a>
+                <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank" itemprop="url"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/JCanDoCode" target="_blank" itemprop="url"><i class='bx bxl-github'></i></a>
+            </div>
         </div>
+        <img src="./media/img/aboutpage.png" alt="Josel" itemprop="image">
     </section>
     <main>
         <section>
-            <h2>Featured Work</h2>
+            <h2 class="project-h2">Featured Work</h2>
             <div class="card-container">
                 <div class="card">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
