@@ -8,8 +8,33 @@
                 </svg>
             </a>
         </div>
-        <div class="linkedin-icon">
-            <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank"><img src="./media/img/linkedin-icon.png" alt="LinkedIn"></a>
+        <div class="footer-info">
+            <div class="footer-contact">
+                <strong>Contact</strong>
+                <ul>
+                    <li>contact@joselcanlas.com</li>
+                    <li><a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/JCanDoCode" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+            <nav class="footer-nav">
+                <strong>Site Links</strong>
+                <div>
+                    <ul>
+                        <li><a href="./index.php">Home</a></li>
+                        <li><a href="./about.php">About</a></li>
+                    </ul>
+                    <div>
+                        <a href="./work.php">Work</a>
+                        <ul>
+                            <li><a href="./jeen.php">JEEN</a></li>
+                            <li><a href="./pieces.php">Pieces</a></li>
+                            <li><a href="./groove.php">Groove</a></li>
+                            <li><a href="./trackrun.php">Track Run</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
     <p class="copyright">&copy; <?php echo date("Y"); ?> JCanArt(Josel Canlas)</p>
