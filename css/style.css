@@ -1,6 +1,7 @@
 /* ____________________ Root  ____________________ */
 :root {
     --margins: 0 700px;
+    --header-height: 114px;
     --primary-color: #332220;
     --complementary-color1: #F3715C;
     --complementary-color2: #2F8980;
@@ -34,6 +35,9 @@
     @media (max-width: 645px) {
         --margins: 0 20px;
     }
+    @media (max-width: 481px) {
+        --header-height: 94px;
+    }
     
     scroll-behavior: smooth;
 }
@@ -59,7 +63,7 @@ header {
     z-index: 2;
 
     nav {
-        height: 170px;
+        height: 100px;
         padding: var(--margins);
         display: flex;
         justify-content: space-between;
@@ -119,7 +123,7 @@ header {
     
             .line {
                 width: 100%;
-                height: 5px;
+                height: 4px;
                 background-color: var(--primary-color);
     
                 &:nth-of-type(2) {
@@ -152,7 +156,7 @@ header {
                     margin-right: 20px;
         
                     a {
-                        font-size: 2.4rem;
+                        font-size: 2rem;
                         text-decoration: none;
                         color: var(--primary-color);
                         padding: 4px 0;
@@ -260,7 +264,6 @@ header {
                         margin-bottom: 20px;
             
                         a {
-                            font-size: 2.4rem;
                             text-decoration: none;
                             color: var(--primary-color);
                         }
@@ -273,7 +276,7 @@ header {
         }
     
         @media (max-width: 481px) {
-            height: 100px;
+            height: 80px;
         }
     }
 }
@@ -383,7 +386,7 @@ footer {
 
 /* ____________________ Body ____________________ */
 main {
-    padding-top: 208px;
+    padding-top: var(--header-height);
     margin: var(--margins);
 
     &.no-header-margin {
@@ -391,7 +394,7 @@ main {
     }
 
     @media (max-width: 481px) {
-        padding-top: 138px;
+        padding-top: var(--header-height);
     }
 }
 article, section {
@@ -404,7 +407,7 @@ article, section {
 .hero-banner {
     position: relative;
     min-height: 400px;
-    margin-top: 193px;
+    margin-top: var(--header-height);
     padding: var(--margins);
     display: flex;
     justify-content: space-between;
@@ -527,9 +530,6 @@ article, section {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    @media (max-width: 481px) {
-        margin-top: 123px;
     }
 }
 .card-container {
@@ -950,13 +950,13 @@ pre {
 .nav-stroke {
     .thin {
         width: 100%;
-        height: 5px;
-        margin-bottom: 8px;
+        height: 3px;
+        margin-bottom: 5px;
         background-color: var(--primary-color);
     }
     .thick {
         width: 100%;
-        height: 10px;
+        height: 6px;
         background-color: var(--primary-color);
     }
 }
