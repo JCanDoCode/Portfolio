@@ -631,7 +631,6 @@ article, section {
                     border-radius: unset;
                     border-bottom: 7.5px var(--primary-color) solid;
                     background-color: unset;
-                    filter: unset;
                     overflow: unset;
                 }
                 @media (max-width: 575px) {
