@@ -19,15 +19,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 </head>
 <body>
     <?php include "./components/header.php"; ?>
     <main>
         <article>
             <h2>Draw a Card!</h2>
-            <p>Create a randomized card game that allows the user to draw any number of cards.</p>
+            <p>Draw a Card! is a card game that lets you draw any amount of cards you want!</p>
         </article>
         <article>
             <h3>Contributors</h3>

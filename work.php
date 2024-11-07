@@ -96,6 +96,20 @@
                         </article>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card-content" itemscope itemtype="https://schema.org/Project">
+                        <a href="https://www.figma.com/design/w73nXpom1NF1UE7FHPeYmb/Prague-Experience-Redesign?node-id=0-1&t=dpyyGUugFRuGLDif-1" target="_blank" class="img-link" itemscope="url"><img src="./media/img/prague_experience.png" alt="Prague Experience Logo" class="contain" itemprop="image"></a>
+                        <article class="no-margin-top">
+                            <h3 itemprop="name">Prague Experience</h3>
+                            <span class="project-category">UI/UX</span>
+                            <p itemprop="description">A redesign on a tourist website that offers information on local Prague activities. Redesign brought many UI/UX improvements.</p>
+                            <div class="btn-flex">
+                                <a href="https://www.figma.com/design/w73nXpom1NF1UE7FHPeYmb/Prague-Experience-Redesign?node-id=0-1&t=dpyyGUugFRuGLDif-1" target="_blank" class="btn" itemprop="url">View Site</a>
+                                <a href="./pragueexperience" class="btn" itemprop="url">Learn More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

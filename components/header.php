@@ -25,6 +25,7 @@
                         <a href="./drawacard">Draw a Card!</a>
                         <a href="./groove">Groove</a>
                         <a href="./trackrun">Track Run</a>
+                        <a href="./pragueexperience">Prague Exp.</a>
                     </div>
                 </li>
                 <li><a href="./about">About</a></li>
