@@ -77,6 +77,7 @@
         <article>
             <h3>Final Website</h3>
             <p>To finish up the website, I added the images, a slider plugin, and removed css no longer used (due to the plugin’s css). I noticed that the hamburger menu was sliding in too far when viewport width was below 300px. After altering the JavaScript transform value from px to vw, I could translate the hamburger menu according to its vw. This fixed my problem I was having.</p>
+            <a href="http://pieces.joselcanlas.com/" target="_blank" class="btn space-after">View Site</a>
         </article>
         <div class="pieces-artifact"></div>
     </main>

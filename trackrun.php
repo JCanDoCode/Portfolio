@@ -54,6 +54,7 @@
         <article>
             <h3>Phase 3: Testing</h3>
             <p>Now it was time to test my app on Maze (a website that turns Figma files into testable apps). I had about 5 testers test my app according to the prompts I gave them. Overall, the results were very good with small fixes for UI/UX capabilities. The first issue was how the button to start tracking was called “Track Run.” One user did not think this button started the run. To fix this, I changed the wording to “start” to be clearer to the user. Another issue was that users did not think that the history button at the finish screen lead to the progress screen. To fix this, I added a “/progress” to the button to ensure the user would know that the button has both screens.</p>
+            <a href="http://trackrun.joselcanlas.com/" target="_blank" class="btn space-after">View Site</a>
         </article>
         <div class="trackrun-artifact"></div>
     </main>

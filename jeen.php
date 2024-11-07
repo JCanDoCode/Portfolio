@@ -62,6 +62,7 @@
         <article>
             <h3>Launch</h3>
             <p>Now the JEEN team presented the website to the client. After the website was a success, we launched it on Neals domain.<br><br>Overall, every team member played a part and worked efficiently together. Another thing to note is that we all had a chance to be a product manager since we cycled the role weekly.</p>
+            <a href="http://jeen.joselcanlas.com/" target="_blank" class="btn space-after">View Site</a>
         </article>
     </main>
     <div class="footer-stroke">
