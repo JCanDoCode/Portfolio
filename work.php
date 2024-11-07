@@ -34,7 +34,7 @@
                             <p itemprop="description">This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunseol, Emma, and Neal.</p>
                             <div class="btn-flex">
                                 <a href="https://jeen.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./jeen.php" class="btn" itemprop="url">Learn More</a>
+                                <a href="./jeen" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -48,7 +48,7 @@
                             <p itemprop="description">Pieces is an ecommerce website selling premium, high quality chess boards. It also has many features to help users improve their chess skills and theory, like daily puzzles and an openings explorer.</p>
                             <div class="btn-flex">
                                 <a href="http://pieces.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./pieces.php" class="btn" itemprop="url">Learn More</a>
+                                <a href="./pieces" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -63,7 +63,7 @@
                             <p itemprop="description">Groove is a music sharing social media platform. Unlike most music streaming applications, Groove is specially designed to suit short form posts. It's like Spotify and Instagram had a baby!</p>
                             <div class="btn-flex">
                                 <a href="https://groove.joselcanlas.com/" target="_blank" class="btn unavailable" itemprop="url">Unavailable</a>
-                                <a href="./groove.php" class="btn" itemprop="url">Learn More</a>
+                                <a href="./groove" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -77,7 +77,7 @@
                             <p itemprop="description">Track Run is a step/run tracking app with many built-in features to enhance your cardio. Track Run can time your runs, track your steps taken, view progress and your past runs.</p>
                             <div class="btn-flex">
                                 <a href="https://trackrun.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./trackrun.php" class="btn" itemprop="url">Learn More</a>
+                                <a href="./trackrun" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>

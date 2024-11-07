@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <a href="./index.php" class="nav-logo-wordmark">
+        <a href="./" class="nav-logo-wordmark">
             <svg class="wordmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
                 <text class="cls-1" transform="translate(352.25 345.8)"><tspan x="0" y="0">CanArt</tspan></text>
                 <path class="cls-2" d="M211.16,481.81c-244.85,36.27,58.33-155.89,23.38-288.92-39.61-3.51-69.54-19.56-69.54-38.83,0-21.84,38.44-20.88,85.86-20.88s85.86-.95,85.86,20.88c0,15.4-19.11,28.74-47.01,35.27,19.74,32.3,149.24,258.73-78.55,292.48Z"/>
@@ -16,17 +16,17 @@
         </div>
         <div class="ham-menu">
             <ul>
-                <li><a href="./index.php">Home</a></li>
+                <li><a href="./">Home</a></li>
                 <li class="dropdown">
-                    <a href="./work.php">Work</a>
+                    <a href="./work">Work</a>
                     <div class="dropdown-menu">
-                        <a href="./jeen.php">JEEN</a>
-                        <a href="./pieces.php">Pieces</a>
-                        <a href="./groove.php">Groove</a>
-                        <a href="./trackrun.php">Track Run</a>
+                        <a href="./jeen">JEEN</a>
+                        <a href="./pieces">Pieces</a>
+                        <a href="./groove">Groove</a>
+                        <a href="./trackrun">Track Run</a>
                     </div>
                 </li>
-                <li><a href="./about.php">About</a></li>
+                <li><a href="./about">About</a></li>
             </ul>
         </div>
     </nav>

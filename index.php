@@ -26,9 +26,9 @@
     <section class="hero-banner" id="heroBanner" itemscope itemtype="https://schema.org/Person">
         <div>
             <h1 itemprop="name">Where Ideas Happen</h1>
-            <h2 itemprop="description">I'm a <a href="./about.php" class="underline" itemprop="jobTitle">Web Designer & Developer</a></h2>
+            <h2 itemprop="description">I'm a <a href="./about" class="underline" itemprop="jobTitle">Web Designer & Developer</a></h2>
             <div class="btn-container">
-                <a href="./about.php" class="btn" itemprop="url">Learn More</a>
+                <a href="./about" class="btn" itemprop="url">Learn More</a>
                 <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank" itemprop="url"><i class='bx bxl-linkedin-square'></i></a>
                 <a href="https://github.com/JCanDoCode" target="_blank" itemprop="url"><i class='bx bxl-github'></i></a>
             </div>
@@ -48,7 +48,7 @@
                             <p itemprop="description">This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunseol, Emma, and Neal.</p>
                             <div class="btn-flex">
                                 <a href="https://jeen.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./jeen.php" class="btn" itemprop="url">Learn More</a>
+                                <a href="./jeen" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -62,12 +62,12 @@
                             <p itemprop="description">Pieces is an ecommerce website selling premium, high quality chess boards. It also has many features to help users improve their chess skills and theory, like daily puzzles and an openings explorer.</p>
                             <div class="btn-flex">
                                 <a href="http://pieces.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./pieces.php" class="btn" itemprop="url">Learn More</a>
+                                <a href="./pieces" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
                 </div>
-                <a href="./work.php" class="btn">View More Projects</a>
+                <a href="./work" class="btn">View More Projects</a>
             </div>
         </section> 
     </main>
