@@ -55,13 +55,13 @@
                 </div>
                 <div class="card">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
-                        <a href="http://pieces.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/pieces.png" alt="Pieces landing page" itemprop="image"></a>
+                        <a href="https://pieces.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/pieces.png" alt="Pieces landing page" itemprop="image"></a>
                         <article class="no-margin-top">
                             <h3 itemprop="name">Pieces</h3>
                             <span class="project-category">Web Development</span>
                             <p itemprop="description">Pieces is an ecommerce website selling premium, high quality chess boards. It also has many features to help users improve their chess skills and theory, like daily puzzles and an openings explorer.</p>
                             <div class="btn-flex">
-                                <a href="http://pieces.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
+                                <a href="https://pieces.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
                                 <a href="./pieces" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>

@@ -22,6 +22,7 @@
                     <div class="dropdown-menu">
                         <a href="./jeen">JEEN</a>
                         <a href="./pieces">Pieces</a>
+                        <a href="./drawacard">Draw a Card!</a>
                         <a href="./groove">Groove</a>
                         <a href="./trackrun">Track Run</a>
                     </div>
