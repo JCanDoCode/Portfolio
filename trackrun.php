@@ -28,6 +28,7 @@
         <article>
             <h2>Track Run</h2>
             <p>Track Run is a step/run tracking app with many built-in features to enhance your cardio. Track Run can time your runs, track your steps taken, view progress and your past runs.</p>
+            <p><strong>Time Taken To Complete: </strong>27.25 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>

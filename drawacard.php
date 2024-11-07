@@ -26,6 +26,7 @@
         <article>
             <h2>Draw a Card!</h2>
             <p>Draw a Card! is a card game that lets you draw any amount of cards you want!</p>
+            <p><strong>Time Taken To Complete: </strong>8 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>

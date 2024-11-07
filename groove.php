@@ -28,6 +28,7 @@
         <article>
             <h2>Groove</h2>
             <p>Groove is a music sharing social media platform. Unlike most music streaming applications, Groove is specially designed to suit short form posts. It's like Spotify and Instagram had a baby!</p>
+            <p><strong>Time Taken To Complete: </strong>11 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>

@@ -28,6 +28,7 @@
         <article>
             <h2>Pieces</h2>
             <p>Pieces is an ecommerce website selling premium, high quality chess boards. It also has many features to help users improve their chess skills and theory, like daily puzzles and an openings explorer.</p>
+            <p><strong>Time Taken To Complete: </strong>15 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>

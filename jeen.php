@@ -28,6 +28,7 @@
         <article>
             <h2>JEEN</h2>
             <p>This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunsol, Emma, and Neal.</p>
+            <p><strong>Time Taken To Complete: </strong>22 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>

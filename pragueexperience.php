@@ -26,6 +26,7 @@
         <article>
             <h2>Prague Experience</h2>
             <p>Create a randomized card game that allows the user to draw any number of cards.</p>
+            <p><strong>Time Taken To Complete: </strong>14.5 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>
