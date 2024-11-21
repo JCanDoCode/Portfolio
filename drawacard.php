@@ -23,7 +23,10 @@
 <body>
     <?php include "./components/header.php"; ?>
     <main>
-        <article>
+        <article class="no-margin-top">
+            <div class="mockup-container">
+                <img src="./media/img/draw_a_card_mockup.png" alt="Draw a Card mockup" class="mockup">
+            </div>
             <h2>Draw a Card!</h2>
             <p>Draw a Card! is a card game that lets you draw any amount of cards you want!</p>
             <p><strong>Time Taken To Complete: </strong>8 hours</p>

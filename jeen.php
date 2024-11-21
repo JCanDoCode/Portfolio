@@ -25,7 +25,10 @@
 <body>
     <?php include "./components/header.php"; ?>
     <main>
-        <article>
+        <article class="no-margin-top">
+            <div class="mockup-container">
+                <img src="./media/img/jeen_mockup.png" alt="jeen mockup" class="mockup">
+            </div>
             <h2>JEEN</h2>
             <p>This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunsol, Emma, and Neal.</p>
             <p><strong>Time Taken To Complete: </strong>22 hours</p>

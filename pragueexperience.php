@@ -23,7 +23,10 @@
 <body>
     <?php include "./components/header.php"; ?>
     <main>
-        <article>
+        <article class="no-margin-top">
+            <div class="mockup-container">
+                <img src="./media/img/prague_mockup.png" alt="Prague Experience mockup" class="mockup">
+            </div>
             <h2>Prague Experience</h2>
             <p>Create a randomized card game that allows the user to draw any number of cards.</p>
             <p><strong>Time Taken To Complete: </strong>14.5 hours</p>

@@ -25,7 +25,10 @@
 <body>
     <?php include "./components/header.php"; ?>
     <main>
-        <article>
+        <article class="no-margin-top">
+            <div class="mockup-container">
+                <img src="./media/img/trackrun_mockup.png" alt="track run mockup" class="mockup">
+            </div>
             <h2>Track Run</h2>
             <p>Track Run is a step/run tracking app with many built-in features to enhance your cardio. Track Run can time your runs, track your steps taken, view progress and your past runs.</p>
             <p><strong>Time Taken To Complete: </strong>27.25 hours</p>

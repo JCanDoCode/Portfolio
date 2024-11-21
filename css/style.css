@@ -924,6 +924,7 @@ article, section {
     &:nth-of-type(1) {
         background-image: url("../media/img/groove_img1.png");
         background-size: contain;
+        filter: unset;
     }
     &:nth-of-type(2) {
         background-image: url("../media/img/groove_img2.png");
@@ -1029,6 +1030,16 @@ pre {
 }
 .space-after {
     margin-bottom: 10px;
+}
+.mockup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mockup {
+    width: 100vw;
+    height: 75vh;
+    object-fit: contain;
 }
 
 /* ____________________ Strokes ____________________ */
