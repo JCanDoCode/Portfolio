@@ -43,7 +43,7 @@
         </article>
         <article>
             <h3>Narrative</h3>
-            <p>In this project, I created my first responsive website that included, responsive elements, font sizes, and media queries. I chose the topic of a fictional company that sells chess boards.</p>
+            <p>In this project, I created my first responsive website that included responsive elements, font sizes, and media queries to support all mobile, tablet, laptop and desktop devices. I chose the topic of a fictional company that sells chess boards.</p>
         </article>
         <article>
             <h3>Wireframe</h3>
@@ -52,7 +52,7 @@
         <div class="pieces-artifact"></div>
         <article>
             <h3>Draft Website</h3>
-            <p>Now it was time to code the layouts made in Figma. I designed with the mobile first idea. This draft website was made responsive with media queries for mobile, tablet, and desktop. This draft website had placeholder frames for where images would go in the final implementation. Another important thing on this website was the hamburger menu which I coded in JavaScript. After this stage, the real website would be filled with all the images and plugins needed.</p>
+            <p>Then, it was time to code the layouts made in Figma. I designed with the mobile first idea. This draft website was made responsive with media queries for mobile, tablet, and desktop. This draft website had placeholder frames for where images would go in the final implementation. Another important thing on this website was the hamburger menu which I coded in JavaScript. After this stage, the real website would be filled with all the images and plugins needed.</p>
         </article>
         <div>
             <pre><code class="language-css">

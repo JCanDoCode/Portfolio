@@ -60,12 +60,13 @@
         <div class="jeen-artifact"></div>
         <article>
             <h3>Prototype</h3>
-            <p>Neal and I coded the website while Eunseol and Emma worked on the user flows of the reservation and order process. We were not aware of responsiveness yet, so these pages were created with static units.</p>
+            <p>Neal and I coded the website while Eunseol and Emma worked on the user flows of the reservation and order process. In this phase, I stayed on track by working on the menu page each day. With this method, I could better estimate how long the coding will take in total and whether I am on track to meet the deadline. I met the initial deadline, but then had to replace the placeholder menu items with the real ones.</p>
         </article>
         <div class="jeen-artifact"></div>
         <article>
             <h3>Launch</h3>
-            <p>Now the JEEN team presented the website to the client. After the website was a success, we launched it on Neals domain.<br><br>Overall, every team member played a part and worked efficiently together. Another thing to note is that we all had a chance to be a product manager since we cycled the role weekly.</p>
+            <p>Then, the JEEN team presented the website to the client successfully and we launched it on Neal’s domain.</p>
+            <p>Overall, every team member played a part and worked efficiently together. Another thing to note is that we all had a chance to be a product manager since we cycled the role weekly.</p>
             <a href="https://jeen.joselcanlas.com/" target="_blank" class="btn space-after">View Site</a>
         </article>
     </main>

@@ -28,7 +28,7 @@
             <div class="card-container">
                 <div class="card">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
-                        <a href="https://jeen.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/jeen_img2.png" alt="JEEN landing page image" itemprop="image"></a>
+                        <a href="https://jeen.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/jeen.png" alt="JEEN landing page image" itemprop="image"></a>
                         <article class="no-margin-top">
                             <h3 itemprop="name">JEEN</h3>
                             <span class="project-category">Web Development</span>
