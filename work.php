@@ -68,7 +68,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card hidden">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://groove.joselcanlas.com/" target="_blank" class="img-link unavailable" itemprop="url"><img src="./media/img/groove_img3.png" alt="Groove home page" class="position-top" itemprop="image"></a>
                         <article class="no-margin-top">

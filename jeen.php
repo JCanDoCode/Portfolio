@@ -55,7 +55,7 @@
         <div class="jeen-artifact"></div>
         <article>
             <h3>Design</h3>
-            <p>Then, we designed the low fidelity wireframes for the website. Figma was a great app to use with a team since we could edit in real time with others. I was tasked with creating the menu page. One of the problems I was faced with here was to create a luxurious feel to the website. Something that occurred in most real-world examples were the abstract ways of conveying messages through abstract elements. I solved this problem by adding sleek lines under the price to create this concept.</p>
+            <p>Then, we designed the low fidelity wireframes for the website. Figma was a great app to use with a team since we could edit in real time with others. I was tasked with creating the menu page. One of the problems I faced here was to create a luxurious feel to the website. Something that occurred in most real-world examples were the abstract ways of conveying messages through elements. I solved this problem by adding sleek lines under the price to create this concept.</p>
         </article>
         <div class="jeen-artifact"></div>
         <article>

@@ -30,7 +30,7 @@
                             <li><a href="./jeen">JEEN</a></li>
                             <li><a href="./pieces">Pieces</a></li>
                             <li><a href="./drawacard">Draw a Card!</a></li>
-                            <li><a href="./groove">Groove</a></li>
+                            <li class="hidden"><a href="./groove">Groove</a></li>
                             <li><a href="./trackrun">Track Run</a></li>
                             <li><a href="./pragueexperience">Prague Experience</a></li>
                         </ul>

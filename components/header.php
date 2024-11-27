@@ -23,7 +23,7 @@
                         <a href="./jeen">JEEN</a>
                         <a href="./pieces">Pieces</a>
                         <a href="./drawacard">Draw a Card!</a>
-                        <a href="./groove">Groove</a>
+                        <a class="hidden" href="./groove">Groove</a>
                         <a href="./trackrun">Track Run</a>
                         <a href="./pragueexperience">Prague Exp.</a>
                     </div>
