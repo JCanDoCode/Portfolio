@@ -31,7 +31,7 @@
             </div>
             <h2>JEEN</h2>
             <p>This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunsol, Emma, and Neal.</p>
-            <p><strong>Time Taken To Complete: </strong>22 hours</p>
+            <p><strong>Time Taken To Complete: </strong>43 hours</p>
         </article>
         <article>
             <h3>Contributors</h3>
@@ -60,7 +60,7 @@
         <div class="jeen-artifact"></div>
         <article>
             <h3>Prototype</h3>
-            <p>Neal and I coded the website while Eunseol and Emma worked on the user flows of the reservation and order process. In this phase, I stayed on track by working on the menu page each day. With this method, I could better estimate how long the coding will take in total and whether I am on track to meet the deadline. I met the initial deadline, but then had to replace the placeholder menu items with the real ones.</p>
+            <p>Neal and I coded the website while Eunseol and Emma worked on the user flows of the reservation and order process. In this phase, I stayed on track by working on the menu page each day. With this method, I was more precise in ensuring that I met the deadline.</p>
         </article>
         <div class="jeen-artifact"></div>
         <article>
