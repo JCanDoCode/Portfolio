@@ -33,7 +33,7 @@
                 <a href="https://github.com/JCanDoCode" target="_blank" itemprop="url"><i class='bx bxl-github'></i></a>
             </div>
         </div>
-        <img src="./media/img/aboutpage.png" alt="Josel" itemprop="image">
+        <img src="./media/img/hero.png" alt="Josel" itemprop="image">
     </section>
     <main class="no-header-margin">
         <section>
