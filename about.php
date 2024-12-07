@@ -60,6 +60,6 @@
     </div>
     <?php include "./components/footer.php"; ?>
     <script defer src="./js/main.js"></script>
-    <script defer src="./js/dynamicAboutContent.js"></script>
+    <script src="./js/dynamicAboutContent.js"></script>
 </body>
 </html>
