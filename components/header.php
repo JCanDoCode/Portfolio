@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="joselcanlas.com"/>
     <meta property="og:title" content="Josel Canlas | <?php echo $pageTitle; ?>"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="./media/img/JCanArt_og_image.png"/>
+    <meta property="og:image" content="https://joselcanlas.com/media/img/Josel-Canlas-og-image.jpg"/>
     <meta property="og:description" content="Josel Canlas is a Vancouver-based Web Designer who creates meaningful designs that bring ideas to life. In this portfolio, see how Josel designs for the best user experiences."/>
     <link rel="icon" type="image/x-icon" href="./media/img/JoselCanlas_logo_favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +27,10 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <?php if ($page === 'pieces') { ?>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script> 
+    <?php } ?>
 </head>
 <body>
     <header>

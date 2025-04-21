@@ -3,7 +3,7 @@
         <article>
             <h2>About</h2>
             <div class="p-img-container">
-
+            
             </div>
         </article>
         <article>

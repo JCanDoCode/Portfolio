@@ -1,4 +1,3 @@
-const vw = window.innerWidth;
 const logo = document.querySelector("#logo");
 const hamIcon = document.querySelector(".ham-icon");
 const middleLine = document.querySelector("#middleLine");

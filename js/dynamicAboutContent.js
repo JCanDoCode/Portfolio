@@ -1,3 +1,5 @@
+const vw = window.innerWidth;
+
 const dynamicAboutContent = () => {
     if (vw <= 950) {
         about.innerHTML = `
