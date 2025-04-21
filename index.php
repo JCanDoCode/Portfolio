@@ -2,7 +2,7 @@
     <section class="hero-banner" id="heroBanner" itemscope itemtype="https://schema.org/Person">
         <div>
             <h1 itemprop="name">Where Ideas Happen</h1>
-            <h2 itemprop="description">I'm a <a href="./about" class="underline" itemprop="jobTitle">Web Designer & Developer</a></h2>
+            <h2 itemprop="description">I'm a <a href="./about" class="underline" itemprop="jobTitle">Web Designer</a></h2>
             <div class="btn-container">
                 <a href="./about" class="btn" itemprop="url">Learn More</a>
                 <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank" itemprop="url"><i class='bx bxl-linkedin-square'></i></a>
