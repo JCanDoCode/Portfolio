@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JCanArt | Where Ideas Happen</title>
-    <meta name="title" content="Pieces | JCanArt">
-    <meta name="description" content="JCanArt (AKA Josel Canlas) is my portfolio website that is focused on one thing, stunning, high quality, and custom designs. Check out my portfolio to view some of my best work!">
-    <meta name="keywords" content="web developer in vancouver, web design, responsive designs, ui/ux, graphic design, web design for businesses, web development, custom websites, portfolio"/>
-    <!-- og tags -->
-    <meta property="og:site_name" content="joselcanlas.com"/>
-    <meta property="og:title" content="Pieces | JCanArt Portfolio"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="./media/img/JCanArt_og_image.png"/>
-    <meta property="og:description" content="JCanArt (AKA Josel Canlas) is my portfolio website that is focused on stunning, high quality, and custom designs. Check out my portfolio to view some of my best work!"/>
-    <link rel="icon" type="image/x-icon" href="./media/img/JCanArt_favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-</head>
-<body>
-    <?php include "./components/header.php"; ?>
+<?php require_once "./components/header.php"; ?>
     <main>
         <article class="no-margin-top">
             <div class="mockup-container">
@@ -89,8 +64,4 @@
         <div class="thick"></div>
         <div class="thin"></div>
     </div>
-    <?php include "./components/footer.php"; ?>
-    <script defer src="./js/main.js"></script>
-    <script>hljs.highlightAll();</script>
-</body>
-</html>
+<?php require_once "./components/footer.php"; ?>

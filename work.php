@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JCanArt | Where Ideas Happen</title>
-    <meta name="title" content="Work | JCanArt">
-    <meta name="description" content="JCanArt (AKA Josel Canlas) is my portfolio website that is focused on one thing, stunning, high quality, and custom designs. Check out my portfolio to view some of my best work">
-    <meta name="keywords" content="web developer in vancouver, web design, responsive designs, ui/ux, graphic design, web design for businesses, web development, custom websites, portfolio"/>
-    <!-- og tags -->
-    <meta property="og:site_name" content="joselcanlas.com"/>
-    <meta property="og:title" content="Work | JCanArt Portfolio"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="./media/img/JCanArt_og_image.png"/>
-    <meta property="og:description" content="JCanArt (AKA Josel Canlas) is my portfolio website that is focused on stunning, high quality, and custom designs. Check out my portfolio to view some of my best work!"/>
-    <link rel="icon" type="image/x-icon" href="./media/img/JCanArt_favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <?php include "./components/header.php"; ?>
+<?php require_once "./components/header.php"; ?>
     <main>
         <section>
             <h2>Featured Work</h2>
@@ -63,7 +40,7 @@
                             <p itemprop="description">Draw a Card! is a card game that lets you draw any amount of cards you want!</p>
                             <div class="btn-flex">
                                 <a href="https://drawacard.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./drawacard" class="btn" itemprop="url">Learn More</a>
+                                <a href="./draw-a-card" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -91,7 +68,7 @@
                             <p itemprop="description">Track Run is a step/run tracking app with many built-in features to enhance your cardio. Track Run can time your runs, track your steps taken, view progress and your past runs.</p>
                             <div class="btn-flex">
                                 <a href="https://trackrun.joselcanlas.com/" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./trackrun" class="btn" itemprop="url">Learn More</a>
+                                <a href="./track-run" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -105,7 +82,7 @@
                             <p itemprop="description">A redesign on a tourist website that offers information on local Prague activities. Redesign brought many UI/UX improvements.</p>
                             <div class="btn-flex">
                                 <a href="https://www.figma.com/design/w73nXpom1NF1UE7FHPeYmb/Prague-Experience-Redesign?node-id=0-1&t=dpyyGUugFRuGLDif-1" target="_blank" class="btn" itemprop="url">View Site</a>
-                                <a href="./pragueexperience" class="btn" itemprop="url">Learn More</a>
+                                <a href="./prague-experience" class="btn" itemprop="url">Learn More</a>
                             </div>
                         </article>
                     </div>
@@ -117,7 +94,4 @@
         <div class="thick"></div>
         <div class="thin"></div>
     </div>
-    <?php include "./components/footer.php"; ?>
-    <script defer src="./js/main.js"></script>
-</body>
-</html>
+<?php require_once "./components/footer.php"; ?>

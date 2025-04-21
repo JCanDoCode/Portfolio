@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JCanArt | Where Ideas Happen</title>
-    <meta name="title" content="Home | JCanArt">
-    <meta name="description" content="JCanArt (AKA Josel Canlas) is my portfolio website that is focused on stunning, high quality, and custom designs. Check out my portfolio to view some of my best work!">
-    <meta name="keywords" content="web developer in vancouver, web design, responsive designs, ui/ux, graphic design, web design for businesses, web development, custom websites, portfolio"/>
-    <!-- og tags -->
-    <meta property="og:site_name" content="joselcanlas.com"/>
-    <meta property="og:title" content="Home | JCanArt Portfolio"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="./media/img/JCanArt_og_image.png"/>
-    <meta property="og:description" content="JCanArt (AKA Josel Canlas) is my portfolio website that is focused on stunning, high quality, and custom designs. Check out my portfolio to view some of my best work!"/>
-    <link rel="icon" type="image/x-icon" href="./media/img/JCanArt_favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <?php include "./components/header.php"; ?>
+<?php require_once "./components/header.php"; ?>
     <section class="hero-banner" id="heroBanner" itemscope itemtype="https://schema.org/Person">
         <div>
             <h1 itemprop="name">Where Ideas Happen</h1>
@@ -75,7 +51,4 @@
         <div class="thick"></div>
         <div class="thin"></div>
     </div>
-    <?php include "./components/footer.php"; ?>
-    <script defer src="./js/main.js"></script>
-</body>
-</html>
+<?php require_once "./components/footer.php"; ?>

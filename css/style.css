@@ -104,20 +104,34 @@ header nav .nav-logo-wordmark {
   z-index: 2;
 }
 header nav .nav-logo-wordmark .wordmark {
-  height: 100%;
+  height: 50%;
 }
 header nav .nav-logo-wordmark .wordmark .cls-1 {
   font-family: PoetsenOne-Regular, "Poetsen One";
-  font-size: 160.7px;
-  stroke-width: 5.02px;
+  font-size: 140px;
 }
 header nav .nav-logo-wordmark .wordmark .cls-1, header nav .nav-logo-wordmark .wordmark .cls-2 {
   fill: none;
-  stroke: var(--primary-color);
+  stroke: #332220;
+  stroke-width: 6px;
+}
+header nav .nav-logo-wordmark .wordmark .cls-3 {
+  letter-spacing: 0.05em;
+}
+header nav .nav-logo-wordmark .wordmark .cls-4 {
+  letter-spacing: 0.04em;
+}
+header nav .nav-logo-wordmark .wordmark .cls-5 {
+  letter-spacing: 0.04em;
+}
+header nav .nav-logo-wordmark .wordmark .cls-6 {
+  letter-spacing: 0.09em;
+}
+header nav .nav-logo-wordmark .wordmark .cls-7 {
+  letter-spacing: 0.08em;
 }
 header nav .nav-logo-wordmark .wordmark .cls-2 {
   stroke-miterlimit: 10;
-  stroke-width: 15.07px;
 }
 @media (max-width: 481px) {
   header nav .nav-logo-wordmark .wordmark {
@@ -130,9 +144,9 @@ header nav .nav-logo-wordmark .logo {
 }
 header nav .nav-logo-wordmark .logo .cls-1 {
   fill: none;
-  stroke: var(--primary-color);
+  stroke: #332220;
   stroke-miterlimit: 10;
-  stroke-width: 18.75px;
+  stroke-width: 20.95px;
 }
 @media (max-width: 481px) {
   header nav .nav-logo-wordmark .logo {
