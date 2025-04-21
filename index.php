@@ -19,7 +19,7 @@
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://jeen.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/jeen.png" alt="JEEN landing page image" itemprop="image"></a>
                         <article class="no-margin-top">
-                            <h3 itemprop="name">JEEN</h3>
+                            <a href="https://jeen.joselcanlas.com/" target="_blank" class="no-decor"><h3 itemprop="name">JEEN</h3></a>
                             <span class="project-category">Web Development</span>
                             <p itemprop="description">This project was focused on Project Management and teamwork. My team and I chose a fictional restaurant project with the name, JEEN. This name was created from the initials of our 4 group members, Josel, Eunseol, Emma, and Neal.</p>
                             <div class="btn-flex">
@@ -33,7 +33,7 @@
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://pieces.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/pieces.png" alt="Pieces landing page" itemprop="image"></a>
                         <article class="no-margin-top">
-                            <h3 itemprop="name">Pieces</h3>
+                            <a href="https://pieces.joselcanlas.com/" target="_blank" class="no-decor"><h3 itemprop="name">Pieces</h3></a>
                             <span class="project-category">Web Development</span>
                             <p itemprop="description">Pieces is an ecommerce website selling premium, high quality chess boards. It also has many features to help users improve their chess skills and theory, like daily puzzles and an openings explorer.</p>
                             <div class="btn-flex">

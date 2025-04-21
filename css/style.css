@@ -1303,6 +1303,13 @@ strong {
 a {
   color: var(--complementary-color1);
 }
+a h1, a h2, a h3, a h4, a h5, a h6 {
+  color: var(--primary-color);
+}
+
+.no-decor {
+  text-decoration: none;
+}
 
 /* ____________________ Animations ____________________ */
 @keyframes fadeInJump {

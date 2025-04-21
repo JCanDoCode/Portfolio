@@ -1181,6 +1181,13 @@ strong {
 }
 a {
     color: var(--complementary-color1);
+
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--primary-color);
+    }
+}
+.no-decor {
+    text-decoration: none;
 }
 
 /* ____________________ Animations ____________________ */
