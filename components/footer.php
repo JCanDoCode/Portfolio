@@ -47,9 +47,7 @@
         $slug = trim($uri, '/');
         $page = $slug ?: 'home';
 
-        if ($page === 'about') {
-            ?> <script src="./js/dynamicAboutContent.js"></script> <?php
-        } elseif ($page === 'pieces') {
+        if ($page === 'pieces') {
             ?> <script>hljs.highlightAll();</script> <?php
         }
     ?>

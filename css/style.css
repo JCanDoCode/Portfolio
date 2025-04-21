@@ -919,9 +919,9 @@ article, section {
   }
   .p-img-container .col-2 {
     height: 200px;
-    margin-bottom: 5px;
+    margin: 20px 0 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: unset;
     align-items: end;
     flex: unset;
     width: 100%;
@@ -949,8 +949,8 @@ article, section {
 @media (max-width: 950px) {
   .image-container {
     flex: 0 0 40%;
-    justify-content: end;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
   }
 }
 @media (max-width: 600px) {
