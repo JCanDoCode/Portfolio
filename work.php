@@ -1,7 +1,10 @@
 <?php require_once "./components/header.php"; ?>
     <main>
         <section>
-            <h2>Featured Work</h2>
+            <section class="work-banner">
+                <h2 class="center-text">Featured Work</h2>
+                <p class="center-text">Browse through my <a href="./work?web-design" class="underline">Web Design</a>, <a href="./work?ux" class="underline">User Experience (UX)</a>, <a href="./work?graphic-design" class="underline">Graphic Design</a>, and other projects!</p>
+            </section>
             <div class="card-container">
                 <div class="card">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">

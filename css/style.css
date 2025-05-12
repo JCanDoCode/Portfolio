@@ -872,7 +872,7 @@ article, section {
 }
 
 .underline {
-  padding: 2px 0;
+  padding: 0.1em 0;
   display: inline-block;
   position: relative;
   text-decoration: none;
@@ -881,7 +881,7 @@ article, section {
   content: "";
   position: absolute;
   width: 0%;
-  height: 4px;
+  height: 0.1em;
   bottom: 0;
   left: 0;
   background-color: var(--complementary-color1);
@@ -892,6 +892,7 @@ article, section {
 }
 @media (max-width: 835px) {
   .underline {
+    padding: unset;
     text-decoration: underline;
   }
   .underline:hover::after {
@@ -1309,6 +1310,10 @@ a h1, a h2, a h3, a h4, a h5, a h6 {
 
 .no-decor {
   text-decoration: none;
+}
+
+.center-text {
+  text-align: center;
 }
 
 /* ____________________ Animations ____________________ */

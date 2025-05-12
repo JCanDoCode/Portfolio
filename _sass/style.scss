@@ -782,7 +782,7 @@ article, section {
     pointer-events: none;
 }
 .underline {
-    padding: 2px 0;
+    padding: 0.1em 0;
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -791,7 +791,7 @@ article, section {
         content: "";
         position: absolute;
         width: 0%;
-        height: 4px;
+        height: 0.1em;
         bottom: 0;
         left: 0;
         background-color: var(--complementary-color1);
@@ -802,6 +802,7 @@ article, section {
     }
 
     @media (max-width: 835px) {
+        padding: unset;
         text-decoration: underline;
 
         &:hover::after {
@@ -1188,6 +1189,9 @@ a {
 }
 .no-decor {
     text-decoration: none;
+}
+.center-text {
+    text-align: center;
 }
 
 /* ____________________ Animations ____________________ */
