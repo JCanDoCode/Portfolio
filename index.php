@@ -14,7 +14,7 @@
     <main class="no-header-margin">
         <section>
             <h2 class="project-h2 center-text">Featured Work</h2>
-            <p class="center-text">Browse through my <a href="./work?web-design" class="underline">Web Design</a>, <a href="./work?ux" class="underline">User Experience (UX)</a>, <a href="./work?graphic-design" class="underline">Graphic Design</a>, and other projects!</p>
+            <p class="center-text">Browse through my <a href="./work" class="underline">Web Design</a> and <a href="./work" class="underline">User Experience (UX)</a> centered projects!</p>
             <div class="card-container">
                 <div class="card">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">

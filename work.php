@@ -3,10 +3,10 @@
         <section>
             <section class="work-banner">
                 <h2 class="center-text">Featured Work</h2>
-                <p class="center-text">Browse through my <a href="./work?web-design" class="underline">Web Design</a>, <a href="./work?ux" class="underline">User Experience (UX)</a>, <a href="./work?graphic-design" class="underline">Graphic Design</a>, and other projects!</p>
+                <p class="center-text">Browse through my <a href="./work" class="underline">Web Design</a> and <a href="./work" class="underline">User Experience (UX)</a> centered projects!</p>
             </section>
             <div class="card-container">
-                <div class="card">
+                <div class="card web-design">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://jeen.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/jeen.png" alt="JEEN landing page image" itemprop="image"></a>
                         <article class="no-margin-top">
@@ -20,7 +20,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card web-design">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://pieces.joselcanlas.com/" target="_blank" class="img-link" itemprop="url"><img src="./media/img/pieces.png" alt="Pieces landing page" itemprop="image"></a>
                         <article class="no-margin-top">
@@ -34,7 +34,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card web-design">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://drawacard.joselcanlas.com/" target="_blank" class="img-link" itemscope="url"><img src="./media/img/drawacard.png" alt="Draw a Card! logo" class="contain" itemprop="image"></a>
                         <article class="no-margin-top">
@@ -62,8 +62,8 @@
                         </article>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-content" itemscope itemtype="https://schema.org/Project">
+                <div class="card ux">
+                    <div class="card-content ux" itemscope itemtype="https://schema.org/Project">
                         <a href="https://trackrun.joselcanlas.com/" target="_blank" class="img-link" itemscope="url"><img src="./media/img/trackrun_img2.png" alt="Track Run home page" class="position-top" itemprop="image"></a>
                         <article class="no-margin-top">
                             <a href="https://trackrun.joselcanlas.com/" target="_blank" class="no-decor"><h3 itemprop="name">Track Run</h3></a>
@@ -76,7 +76,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card ux">
                     <div class="card-content" itemscope itemtype="https://schema.org/Project">
                         <a href="https://www.figma.com/design/w73nXpom1NF1UE7FHPeYmb/Prague-Experience-Redesign?node-id=0-1&t=dpyyGUugFRuGLDif-1" target="_blank" class="img-link" itemscope="url"><img src="./media/img/prague_experience.png" alt="Prague Experience Logo" class="contain" itemprop="image"></a>
                         <article class="no-margin-top">

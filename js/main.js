@@ -16,7 +16,6 @@ const hamMenu = () => {
         middleLine.style.width = "0%";
         hamActive = false;
     }
-    
 }
 
 hamIcon.addEventListener("click", hamMenu);

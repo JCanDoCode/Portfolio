@@ -208,20 +208,6 @@ header nav .ham-menu > ul > li a {
   position: relative;
   text-decoration: none;
 }
-header nav .ham-menu > ul > li a::after {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 1.5px;
-  margin-bottom: 5px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary-color);
-  transition: all 0.25s ease;
-}
-header nav .ham-menu > ul > li a:hover::after {
-  width: 100%;
-}
 header nav .ham-menu > ul > li a::before {
   content: "";
   position: absolute;
