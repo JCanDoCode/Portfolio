@@ -21,13 +21,14 @@
         <article>
             <h3>Skills</h3>
             <div class="skills">
-                <img src="./media/img/html.png" alt="html">
-                <img src="./media/img/css.png" alt="css">
-                <img src="./media/img/js.png" alt="js">
-                <img src="./media/img/php.png" alt="php">
-                <img src="./media/img/figma.png" alt="figma">
-                <img src="./media/img/adobe.png" alt="creative cloud">
-                <img src="./media/img/git_logo.png" alt="git hub">
+                <i class='bxl  bx-javascript'  ></i> 
+                <i class='bxl  bx-react'  ></i> 
+                <i class='bxl  bx-my-sql'  ></i> 
+                <i class='bxl  bx-php'  ></i> 
+                <i class='bxl  bx-python'  ></i> 
+                <i class='bxl  bx-figma-alt'  ></i> 
+                <i class='bxl  bx-adobe'  ></i> 
+                <i class='bxl  bx-github'  ></i> 
             </div>
         </article>
         <article>

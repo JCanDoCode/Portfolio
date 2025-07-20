@@ -1,7 +1,8 @@
-
 @font-face {
-    font-family: "Poetsen One";
-    src: url("../fonts/PoetsenOne-Regular.ttf") format("truetype");
-    src: url("../fonts/poetsenone-regular-webfont.woff") format("woff");
-    src: url("../fonts/poetsenone-regular-webfont.woff2") format("woff2");
+    font-family: 'modernizregular';
+    src: url('../fonts/moderniz-webfont.woff2') format('woff2'),
+         url('../fonts/moderniz-webfont.woff') format('woff'),
+         url('../fonts/Moderniz.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
 }
