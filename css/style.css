@@ -743,6 +743,10 @@ article, section {
   font-size: 100px;
 }
 
+.service {
+  margin: 1rem;
+}
+
 /* ____________________ Utilities ____________________ */
 .no-margin-top {
   margin-top: unset;

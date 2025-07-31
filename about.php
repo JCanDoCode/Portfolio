@@ -32,6 +32,15 @@
             </div>
         </article>
         <article>
+            <h3>Services</h3>
+            <h4 class="service"><i class='bx  bx-card-view-large'  ></i> Web Design</h4>
+            <h4 class="service"><i class='bx  bx-grid-circle-diagonal-right'  ></i> Graphic Design</h4>
+            <h4 class="service"><i class='bx  bx-video'  ></i> Video Editing</h4>
+            <h4 class="service"><i class='bx  bx-camera'  ></i> Photography/Video</h4>
+            <h4 class="service"><i class='bx  bx-image'  ></i> Photo Manipulation</h4>
+            </ul>
+        </article>
+        <article>
             <h3 class="space-after">My Hobbies</h3>
             <h4>Chess</h4>
             <p class="space-after">Pieces, one of my portfolio pieces may give it away that I love to play chess (here’s <a href="https://www.chess.com/member/gchess2222" target="_blank">my chess.com profile</a> if you ever want to play a game with me)! Chess has many benefits to playing it, like improving strategic and adaptive mindsets. As a strong problem solver, I enjoy every moment where you must respond to your opponents moves and find a solution to the problem at hand.</p>
