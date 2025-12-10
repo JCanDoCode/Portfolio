@@ -5,8 +5,8 @@
             <h2 itemprop="description">I'm a <a href="./about" class="underline" itemprop="jobTitle">Web Designer</a></h2>
             <div class="btn-container">
                 <a href="./about" class="btn" itemprop="url">Learn More</a>
-                <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank" itemprop="url"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="https://github.com/JCanDoCode" target="_blank" itemprop="url"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/josel-canlas-1441b1291/" target="_blank" itemprop="url"><i class='bxl bx-linkedin-square'></i> </a>
+                <a href="https://github.com/JCanDoCode" target="_blank" itemprop="url"><i class='bxl bx-github'></i></a>
             </div>
         </div>
         <img src="./media/img/hero.png" alt="Josel" itemprop="image">
