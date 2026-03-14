@@ -6,58 +6,61 @@
 }
 /* ____________________ Root  ____________________ */
 :root {
-  --margins: 0 700px;
+  --margins: 0 70rem;
   --header-height: 114px;
   --primary-color: #332220;
   --complementary-color1: #F3715C;
   --complementary-color2: #2F8980;
+  --analogous-base: #F2B6AD;
+  --analogous-1: #F2A55C;
+  --analogous-2: #F28A5C;
   --grey: #8c726d50;
   --off-white: #fcf9f4;
   scroll-behavior: smooth;
 }
 @media (max-width: 2559px) {
   :root {
-    --margins: 0 600px;
+    --margins: 0 60rem;
   }
 }
 @media (max-width: 2185px) {
   :root {
-    --margins: 0 450px;
+    --margins: 0 45rem;
   }
 }
 @media (max-width: 2000px) {
   :root {
-    --margins: 0 350px;
+    --margins: 0 35rem;
   }
 }
 @media (max-width: 1773px) {
   :root {
-    --margins: 0 210px;
+    --margins: 0 21rem;
   }
 }
 @media (max-width: 1371px) {
   :root {
-    --margins: 0 190px;
+    --margins: 0 19rem;
   }
 }
 @media (max-width: 1223px) {
   :root {
-    --margins: 0 170px;
+    --margins: 0 17rem;
   }
 }
 @media (max-width: 1099px) {
   :root {
-    --margins: 0 100px;
+    --margins: 0 10rem;
   }
 }
 @media (max-width: 783px) {
   :root {
-    --margins: 0 40px;
+    --margins: 0 4rem;
   }
 }
 @media (max-width: 645px) {
   :root {
-    --margins: 0 20px;
+    --margins: 0 2rem;
   }
 }
 @media (max-width: 481px) {
@@ -89,7 +92,7 @@ header {
   z-index: 2;
 }
 header nav {
-  height: 100px;
+  height: 10rem;
   padding: var(--margins);
   display: flex;
   justify-content: space-between;
@@ -97,7 +100,7 @@ header nav {
   z-index: 2;
 }
 header nav .wordmark {
-  margin-right: 30px;
+  margin-right: 3rem;
   font-family: "modernizregular", "Bebas Neue", sans-serif;
   font-size: 2.4rem;
 }
@@ -154,7 +157,7 @@ header nav .ham-menu > ul {
   align-items: center;
 }
 header nav .ham-menu > ul > li {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 header nav .ham-menu > ul > li a {
   font-size: 2rem;
@@ -190,7 +193,7 @@ header nav .ham-menu > ul > li.dropdown {
   position: relative;
 }
 header nav .ham-menu > ul > li.dropdown:hover .dropdown-menu {
-  height: 150px;
+  height: 15rem;
 }
 @media (max-width: 481px) {
   header nav .ham-menu > ul > li.dropdown a {
@@ -201,7 +204,7 @@ header nav .ham-menu > ul > li.dropdown:hover .dropdown-menu {
 header nav .ham-menu > ul > li .dropdown-menu {
   position: absolute;
   height: 0;
-  padding: 5px 10px;
+  padding: 5px 1rem;
   display: flex;
   flex-direction: column;
   text-wrap: nowrap;
@@ -225,7 +228,7 @@ header nav .ham-menu > ul > li:nth-of-type(3) {
     position: absolute;
     width: 50vw;
     height: 100vh;
-    padding-top: 130px;
+    padding-top: 13rem;
     top: 0;
     left: 100vw;
     display: flex;
@@ -234,7 +237,7 @@ header nav .ham-menu > ul > li:nth-of-type(3) {
     background-color: var(--off-white);
   }
   header nav .ham-menu ul {
-    margin-right: 20px;
+    margin-right: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: unset;
@@ -242,7 +245,7 @@ header nav .ham-menu > ul > li:nth-of-type(3) {
   }
   header nav .ham-menu ul li {
     margin-right: unset;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   header nav .ham-menu ul li a {
     text-decoration: none;
@@ -254,7 +257,7 @@ header nav .ham-menu > ul > li:nth-of-type(3) {
 }
 @media (max-width: 481px) {
   header nav {
-    height: 80px;
+    height: 8rem;
   }
 }
 
@@ -269,7 +272,7 @@ footer .footer-container {
   footer .footer-container {
     justify-content: unset;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
   }
 }
 footer .footer-wordmark {
@@ -282,7 +285,7 @@ footer .footer-wordmark a {
   width: 90%;
 }
 footer .footer-wordmark a .wordmark {
-  margin-right: 30px;
+  margin-right: 3rem;
   font-family: "modernizregular", "Bebas Neue", sans-serif;
   font-size: 2.4rem;
 }
@@ -305,12 +308,12 @@ footer .footer-info {
   footer .footer-info {
     width: 100%;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
     font-size: 1.6rem;
   }
 }
 footer .footer-contact {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 footer .footer-contact li {
   margin-top: 7.5px;
@@ -331,14 +334,14 @@ footer .footer-contact a {
 @media (max-width: 481px) {
   footer .footer-nav > div > ul {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
   }
 }
 footer .footer-nav > div > div {
   margin-top: 7.5px;
 }
 footer .footer-nav > div > div ul {
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 footer .footer-nav > div > div ul li {
   text-wrap: nowrap;
@@ -350,13 +353,13 @@ footer .footer-nav > div > div ul li {
 }
 @media (max-width: 675px) {
   footer .footer-nav > div > div {
-    margin: 7.5px 0 0 20px;
+    margin: 7.5px 0 0 2rem;
   }
 }
 @media (max-width: 481px) {
   footer .footer-nav > div > div {
     display: flex;
-    margin: 7.5px 0 0 10px;
+    margin: 7.5px 0 0 1rem;
   }
 }
 footer .footer-nav li {
@@ -381,7 +384,7 @@ footer .footer-nav a {
 }
 footer .copyright {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -400,17 +403,17 @@ main.no-header-margin {
 }
 
 article, section {
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 @media (max-width: 563px) {
   article, section {
-    margin-top: 20px;
+    margin-top: 2rem;
   }
 }
 
 .hero-banner {
   position: relative;
-  min-height: 400px;
+  min-height: 40rem;
   margin-top: var(--header-height);
   padding: var(--margins);
   display: flex;
@@ -420,7 +423,7 @@ article, section {
   background-position: center;
 }
 .hero-banner h1 {
-  margin-top: 40px;
+  margin-top: 4rem;
   transform: translateY(0);
   opacity: 0;
   animation: fadeInJump 0.5s 0.25s ease-in forwards;
@@ -436,12 +439,12 @@ article, section {
 @media (max-width: 669px) {
   .hero-banner h2 {
     font-size: 3.6rem;
+    text-align: center;
   }
 }
 @media (max-width: 565px) {
   .hero-banner h2 {
     font-size: 2.8rem;
-    text-align: center;
   }
 }
 @media (max-width: 481px) {
@@ -455,12 +458,19 @@ article, section {
   }
 }
 .hero-banner .btn-container {
-  margin-top: 20px;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
   animation: fadeIn 0.5s 2s ease forwards;
   opacity: 0;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem var(--primary-color));
+}
+.hero-banner .btn-container .bx-linkedin-square {
+  color: var(--analogous-1);
+}
+.hero-banner .btn-container .bx-github {
+  color: var(--analogous-2);
 }
 @media (max-width: 645px) {
   .hero-banner .btn-container {
@@ -479,13 +489,13 @@ article, section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  border: 2.5px var(--primary-color) solid;
+  border-radius: 2rem;
+  background-color: var(--analogous-base);
+  border: unset;
   color: var(--primary-color);
   transition: all 0.15s ease;
 }
 .hero-banner .btn:hover {
-  background-color: var(--primary-color);
   color: var(--off-white);
 }
 @media (max-width: 563px) {
@@ -507,37 +517,37 @@ article, section {
   }
 }
 .hero-banner img {
-  width: 350px;
-  height: 350px;
-  margin: 40px 20px;
-  border-radius: 100px;
+  width: 35rem;
+  height: 35rem;
+  margin: 40px 2rem;
+  border-radius: 10rem;
   opacity: 0;
   animation: fadeIn 1s 2.5s ease forwards;
 }
 @media (max-width: 1450px) {
   .hero-banner img {
-    width: 250px;
-    height: 250px;
-    border-radius: 90px;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 9rem;
   }
 }
 @media (max-width: 1300px) {
   .hero-banner img {
-    width: 220px;
-    height: 220px;
-    border-radius: 80px;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 8rem;
   }
 }
 @media (max-width: 1200px) {
   .hero-banner img {
-    margin: 20px 20px 40px;
+    margin: 20px 20px 4rem;
     border-radius: 75px;
   }
 }
 @media (max-width: 481px) {
   .hero-banner img {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
     border-radius: 75px;
   }
 }
@@ -564,7 +574,7 @@ article, section {
 }
 .card-container .card {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -576,7 +586,7 @@ article, section {
   width: 100%;
   height: 100%;
   padding: 25px;
-  border-radius: 30px;
+  border-radius: 3rem;
   display: flex;
   align-items: center;
   gap: 5%;
@@ -585,7 +595,7 @@ article, section {
 }
 .card-container .card .card-content .img-link {
   flex: 0 0 40%;
-  height: 250px;
+  height: 25rem;
   border-radius: 15px;
   display: block;
   transition: all 0.5s ease;
@@ -617,8 +627,8 @@ article, section {
   .card-container .card .card-content .img-link {
     flex: unset;
     width: 100%;
-    height: 300px;
-    padding-bottom: 10px;
+    height: 30rem;
+    padding-bottom: 1rem;
     margin-bottom: 5px;
     border-radius: unset;
     border-bottom: 7.5px var(--primary-color) solid;
@@ -628,7 +638,7 @@ article, section {
 }
 @media (max-width: 575px) {
   .card-container .card .card-content .img-link {
-    height: 200px;
+    height: 20rem;
   }
 }
 .card-container .card .card-content article {
@@ -654,13 +664,13 @@ article, section {
   text-align: center;
   display: block;
   flex: 0 0 40%;
-  height: 50px;
+  height: 5rem;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  border: 2.5px var(--primary-color) solid;
+  border-radius: 2rem;
+  border: 0.25rem var(--primary-color) solid;
   color: var(--primary-color);
   transition: all 0.15s ease;
 }
@@ -670,7 +680,7 @@ article, section {
 }
 @media (max-width: 768px) {
   .card-container .card .card-content article .btn-flex .btn {
-    height: 50px;
+    height: 5rem;
   }
 }
 @media (max-width: 481px) {
@@ -685,13 +695,13 @@ article, section {
 }
 @media (max-width: 768px) {
   .card-container .card .card-content article .btn-flex {
-    margin-top: 10px;
+    margin-top: 1rem;
   }
 }
 @media (max-width: 768px) {
   .card-container .card .card-content article {
     width: 90%;
-    padding-top: 10px;
+    padding-top: 1rem;
     border-top: 5px var(--primary-color) solid;
   }
 }
@@ -716,13 +726,13 @@ article, section {
   text-align: center;
   display: block;
   width: fit-content;
-  height: 30px;
-  padding: 10px;
+  height: 3rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  border: 2.5px var(--primary-color) solid;
+  border-radius: 2rem;
+  border: 0.25rem var(--primary-color) solid;
   color: var(--primary-color);
   transition: all 0.15s ease;
 }
@@ -732,7 +742,7 @@ article, section {
 }
 
 .skills {
-  margin: 20px 0 30px 0;
+  margin: 2rem 0 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -740,7 +750,7 @@ article, section {
   flex-wrap: wrap;
 }
 .skills .bxl {
-  font-size: 100px;
+  font-size: 10rem;
 }
 
 .service {
@@ -763,8 +773,8 @@ article, section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  border: 2.5px var(--primary-color) solid;
+  border-radius: 2rem;
+  border: 0.25rem var(--primary-color) solid;
   color: var(--primary-color);
   transition: all 0.15s ease;
 }
@@ -832,8 +842,8 @@ article, section {
     width: 100%;
   }
   .p-img-container .col-2 {
-    height: 200px;
-    margin: 20px 0 5px;
+    height: 20rem;
+    margin: 2rem 0 5px;
     display: flex;
     justify-content: unset;
     align-items: end;
@@ -843,7 +853,7 @@ article, section {
 }
 @media (max-width: 950px) and (max-width: 481px) {
   .p-img-container .col-2 {
-    height: 150px;
+    height: 15rem;
   }
 }
 
@@ -875,9 +885,9 @@ article, section {
 
 .jeen-artifact {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -898,9 +908,9 @@ article, section {
 
 .pieces-artifact {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -916,9 +926,9 @@ article, section {
 
 .groove-artifact {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -940,9 +950,9 @@ article, section {
 
 .trackrun-artifact {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -963,16 +973,16 @@ article, section {
 
 .trackrun-issue {
   width: 90%;
-  margin: 0 5% 20px;
-  border-radius: 30px;
+  margin: 0 5% 2rem;
+  border-radius: 3rem;
   object-fit: contain;
 }
 
 .draw-a-card-artifact {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -993,9 +1003,9 @@ article, section {
 
 .prague-experience-artifact {
   width: 100%;
-  height: 400px;
+  height: 40rem;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1017,7 +1027,7 @@ article, section {
 pre {
   width: 100%;
   height: 30%;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .hljs {
@@ -1026,14 +1036,14 @@ pre {
 }
 
 .contact-article p:nth-of-type(1) {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .contact-article p:nth-of-type(2), .contact-article p:nth-of-type(3) {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .space-after {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .mockup-container {
@@ -1066,11 +1076,11 @@ pre {
 }
 
 .footer-stroke {
-  margin: 100px 0 40px;
+  margin: 10rem 0 4rem;
 }
 .footer-stroke .thick {
   width: 100%;
-  height: 10px;
+  height: 1rem;
   margin-bottom: 8px;
   background-color: var(--primary-color);
 }
@@ -1171,7 +1181,7 @@ h4 {
 p {
   font-size: 1.8rem;
   line-height: 2.75rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 @media (max-width: 481px) {
   p {
@@ -1184,10 +1194,10 @@ article ul {
   list-style-type: disc;
   font-size: 1.8rem;
   line-height: 2.75rem;
-  margin: 0 0 10px 50px;
+  margin: 0 0 10px 5rem;
 }
 article ul li {
-  margin: 10px 0;
+  margin: 1rem 0;
 }
 @media (max-width: 481px) {
   article ul {
@@ -1199,10 +1209,10 @@ article ol {
   list-style-type: decimal;
   font-size: 1.8rem;
   line-height: 2.75rem;
-  margin: 0 0 10px 50px;
+  margin: 0 0 10px 5rem;
 }
 article ol li {
-  margin: 10px 0;
+  margin: 1rem 0;
 }
 @media (max-width: 481px) {
   article ol {
