@@ -12,6 +12,10 @@
     --analogous-base: #F2B6AD;
     --analogous-1: #F2A55C;
     --analogous-2: #F28A5C;
+
+    // Section Colors
+    --section-1: #a3ece5;
+    --section-2: #94d9ec;
     --grey: #8c726d50;
     --off-white: #fcf9f4;
 
@@ -652,6 +656,25 @@ article, section {
                         }
                         @media (max-width: 481px) {
                             font-size: 1.6rem;
+                        }
+                    }
+                    .btn:first-child {
+                        border: 0.25rem var(--analogous-base) solid;
+                        background-color: var(--analogous-base);
+                        color: var(--off-white);
+
+                        &:hover {
+                            background-color: unset;
+                            color: var(--primary-color);
+                        }
+                    }
+                    .btn:nth-child(2) {
+                        border: 0.25rem var(--analogous-1) solid;
+                        color: var(--primary-color);
+
+                        &:hover {
+                            background-color: var(--analogous-1);
+                            color: var(--off-white);
                         }
                     }
 

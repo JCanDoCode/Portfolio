@@ -14,6 +14,8 @@
   --analogous-base: #F2B6AD;
   --analogous-1: #F2A55C;
   --analogous-2: #F28A5C;
+  --section-1: #a3ece5;
+  --section-2: #94d9ec;
   --grey: #8c726d50;
   --off-white: #fcf9f4;
   scroll-behavior: smooth;
@@ -687,6 +689,23 @@ article, section {
   .card-container .card .card-content article .btn-flex .btn {
     font-size: 1.6rem;
   }
+}
+.card-container .card .card-content article .btn-flex .btn:first-child {
+  border: 0.25rem var(--analogous-base) solid;
+  background-color: var(--analogous-base);
+  color: var(--off-white);
+}
+.card-container .card .card-content article .btn-flex .btn:first-child:hover {
+  background-color: unset;
+  color: var(--primary-color);
+}
+.card-container .card .card-content article .btn-flex .btn:nth-child(2) {
+  border: 0.25rem var(--analogous-1) solid;
+  color: var(--primary-color);
+}
+.card-container .card .card-content article .btn-flex .btn:nth-child(2):hover {
+  background-color: var(--analogous-1);
+  color: var(--off-white);
 }
 @media (max-width: 1167px) {
   .card-container .card .card-content article .btn-flex {
