@@ -3,7 +3,7 @@
 /* ____________________ Root  ____________________ */
 :root {
     --margins: 0 70rem;
-    --header-height: 114px;
+    --header-height: 11.4rem;
     --primary-color: #332220;
     --complementary-color1: #F3715C;
     --complementary-color2: #2F8980;
@@ -661,20 +661,11 @@ article, section {
                     .btn:first-child {
                         border: 0.25rem var(--analogous-base) solid;
                         background-color: var(--analogous-base);
-                        color: var(--off-white);
+                        color: var(--primary-color);
 
                         &:hover {
                             background-color: unset;
                             color: var(--primary-color);
-                        }
-                    }
-                    .btn:nth-child(2) {
-                        border: 0.25rem var(--analogous-1) solid;
-                        color: var(--primary-color);
-
-                        &:hover {
-                            background-color: var(--analogous-1);
-                            color: var(--off-white);
                         }
                     }
 
@@ -747,6 +738,37 @@ article, section {
     margin: 1rem;
 }
 
+/* ____________________ About ____________________ */
+.about {
+    box-sizing: border-box;
+}
+.about article {
+    margin: 0;
+    padding: 4rem 0;
+
+    @media (max-width: 563px) {
+        padding: 2rem 0;
+    }
+}
+// .about-section {
+//     position: relative;
+//     box-sizing: border-box;
+
+//     &::after {
+//         content: '';
+//         position: absolute;
+//         width: 200vw;
+//         height: 100%;
+//         top: 0;
+//         left: -100vw;
+//         z-index: -1;
+//     }
+//     &:nth-child(even)::after {
+//         background-color: var(--section-2);
+//     }
+// }
+
+
 /* ____________________ Utilities ____________________ */
 .no-margin-top {
     margin-top: unset;
@@ -766,6 +788,10 @@ article, section {
     border: 0.25rem var(--primary-color) solid;
     color: var(--primary-color);
     transition: all 0.15s ease;
+
+    &.view-more {
+        background-color: var(--analogous-1);
+    }
 
     &:hover {
         background-color: var(--primary-color);

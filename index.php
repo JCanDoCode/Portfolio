@@ -44,7 +44,7 @@
                         </article>
                     </div>
                 </div>
-                <a href="./work" class="btn">View More Projects</a>
+                <a href="./work" class="btn view-more">View More Projects</a>
             </div>
         </section> 
     </main>

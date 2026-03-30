@@ -7,7 +7,7 @@
 /* ____________________ Root  ____________________ */
 :root {
   --margins: 0 70rem;
-  --header-height: 114px;
+  --header-height: 11.4rem;
   --primary-color: #332220;
   --complementary-color1: #F3715C;
   --complementary-color2: #2F8980;
@@ -693,19 +693,11 @@ article, section {
 .card-container .card .card-content article .btn-flex .btn:first-child {
   border: 0.25rem var(--analogous-base) solid;
   background-color: var(--analogous-base);
-  color: var(--off-white);
+  color: var(--primary-color);
 }
 .card-container .card .card-content article .btn-flex .btn:first-child:hover {
   background-color: unset;
   color: var(--primary-color);
-}
-.card-container .card .card-content article .btn-flex .btn:nth-child(2) {
-  border: 0.25rem var(--analogous-1) solid;
-  color: var(--primary-color);
-}
-.card-container .card .card-content article .btn-flex .btn:nth-child(2):hover {
-  background-color: var(--analogous-1);
-  color: var(--off-white);
 }
 @media (max-width: 1167px) {
   .card-container .card .card-content article .btn-flex {
@@ -776,6 +768,21 @@ article, section {
   margin: 1rem;
 }
 
+/* ____________________ About ____________________ */
+.about {
+  box-sizing: border-box;
+}
+
+.about article {
+  margin: 0;
+  padding: 4rem 0;
+}
+@media (max-width: 563px) {
+  .about article {
+    padding: 2rem 0;
+  }
+}
+
 /* ____________________ Utilities ____________________ */
 .no-margin-top {
   margin-top: unset;
@@ -796,6 +803,9 @@ article, section {
   border: 0.25rem var(--primary-color) solid;
   color: var(--primary-color);
   transition: all 0.15s ease;
+}
+.btn.view-more {
+  background-color: var(--analogous-1);
 }
 .btn:hover {
   background-color: var(--primary-color);

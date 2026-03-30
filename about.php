@@ -1,6 +1,6 @@
 <?php require_once "./components/header.php"; ?>
-    <main>
-        <article>
+    <main class="about">
+        <article class="about-section">
             <h2>About</h2>
             <div class="p-img-container">
                 <section class="col-1 no-margin-top">
@@ -13,12 +13,12 @@
                 </section>
             </div>
         </article>
-        <article>
+        <article class="about-section">
             <h3>The Why!</h3>
             <p>I’ve always been taught to put my mind in the reader’s perspective. At BCIT, we code or design for the end user in mind when building a project. The user is always “why” I create anything. The “why” is something that has stuck with me since the start of my career. I always question, “why-” is something like that, or “why-” does a design look like this. Questions really drive <i>why</i> I do something, because without the why, then why are you doing what you do!</p>
             <a href="#contact" class="btn">Contact</a>
         </article>
-        <article>
+        <article class="about-section">
             <h3>Skills</h3>
             <div class="skills">
                 <i class='bxl  bx-javascript'  ></i> 
@@ -31,7 +31,7 @@
                 <i class='bxl  bx-github'  ></i> 
             </div>
         </article>
-        <article>
+        <article class="about-section">
             <h3>Services</h3>
             <h4 class="service"><i class='bx  bx-card-view-large'  ></i> Web Design</h4>
             <h4 class="service"><i class='bx  bx-grid-circle-diagonal-right'  ></i> Graphic Design</h4>
@@ -40,14 +40,14 @@
             <h4 class="service"><i class='bx  bx-image'  ></i> Photo Manipulation</h4>
             </ul>
         </article>
-        <article>
+        <article class="about-section">
             <h3 class="space-after">My Hobbies</h3>
             <h4>Chess</h4>
             <p class="space-after">Pieces, one of my portfolio pieces may give it away that I love to play chess (here’s <a href="https://www.chess.com/member/gchess2222" target="_blank">my chess.com profile</a> if you ever want to play a game with me)! Chess has many benefits to playing it, like improving strategic and adaptive mindsets. As a strong problem solver, I enjoy every moment where you must respond to your opponents moves and find a solution to the problem at hand.</p>
             <h4>Fitness and Conditioning</h4>
             <p>With a healthy mind, you always need a healthy body! I've enjoyed working out ever since I was 9, but never had an extensive schedule until 2023 in high school. At this time, I took a fitness and conditioning course where I added more to my previous schedule. I was grateful for the experience as I further developed discipline and dedication.</p>
         </article>
-        <article class="contact-article" id="contact" itemscope itemtype="https://schema.org/ContactPoint">
+        <article class="contact-article about-section" id="contact" itemscope itemtype="https://schema.org/ContactPoint">
             <h3 itemprop="name">Contact</h3>
             <p itemprop="description">Feel free to contact me with any questions or any other wonderful work! ;)</p>
             <p>Email: <a href="mailto:contact@joselcanlas.com" target="_blank" itemprop="email">contact@joselcanlas.com</a></p>
